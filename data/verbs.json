@@ -3886,5 +3886,23 @@
     "thirdPerson": "wraps",
     "type": "regular",
     "meaning": "To cover or enclose"
+  },
+  {
+    "base": "yell",
+    "past": "yelled",
+    "pastParticiple": "yelled",
+    "presentParticiple": "yelling",
+    "thirdPerson": "yells",
+    "type": "regular",
+    "meaning": "To shout loudly"
+  },
+  {
+    "base": "zoom",
+    "past": "zoomed",
+    "pastParticiple": "zoomed",
+    "presentParticiple": "zooming",
+    "thirdPerson": "zooms",
+    "type": "regular",
+    "meaning": "To move quickly"
   }
 ]
