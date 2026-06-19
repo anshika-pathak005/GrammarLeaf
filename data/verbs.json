@@ -2968,5 +2968,23 @@
     "thirdPerson": "parks",
     "type": "regular",
     "meaning": "To leave a vehicle temporarily"
+  },
+  {
+    "base": "pass",
+    "past": "passed",
+    "pastParticiple": "passed",
+    "presentParticiple": "passing",
+    "thirdPerson": "passes",
+    "type": "regular",
+    "meaning": "To go past or succeed"
+  },
+  {
+    "base": "perform",
+    "past": "performed",
+    "pastParticiple": "performed",
+    "presentParticiple": "performing",
+    "thirdPerson": "performs",
+    "type": "regular",
+    "meaning": "To carry out or present"
   }
 ]
