@@ -3400,5 +3400,491 @@
     "thirdPerson": "saves",
     "type": "regular",
     "meaning": "To rescue or store"
+  },
+  {
+    "base": "search",
+    "past": "searched",
+    "pastParticiple": "searched",
+    "presentParticiple": "searching",
+    "thirdPerson": "searches",
+    "type": "regular",
+    "meaning": "To look for"
+  },
+  {
+    "base": "seem",
+    "past": "seemed",
+    "pastParticiple": "seemed",
+    "presentParticiple": "seeming",
+    "thirdPerson": "seems",
+    "type": "regular",
+    "meaning": "To appear or give impression"
+  },
+  {
+    "base": "select",
+    "past": "selected",
+    "pastParticiple": "selected",
+    "presentParticiple": "selecting",
+    "thirdPerson": "selects",
+    "type": "regular",
+    "meaning": "To choose carefully"
+  },
+  {
+    "base": "separate",
+    "past": "separated",
+    "pastParticiple": "separated",
+    "presentParticiple": "separating",
+    "thirdPerson": "separates",
+    "type": "regular",
+    "meaning": "To divide or keep apart"
+  },
+  {
+    "base": "serve",
+    "past": "served",
+    "pastParticiple": "served",
+    "presentParticiple": "serving",
+    "thirdPerson": "serves",
+    "type": "regular",
+    "meaning": "To perform duties or provide"
+  },
+  {
+    "base": "settle",
+    "past": "settled",
+    "pastParticiple": "settled",
+    "presentParticiple": "settling",
+    "thirdPerson": "settles",
+    "type": "regular",
+    "meaning": "To resolve or establish"
+  },
+  {
+    "base": "share",
+    "past": "shared",
+    "pastParticiple": "shared",
+    "presentParticiple": "sharing",
+    "thirdPerson": "shares",
+    "type": "regular",
+    "meaning": "To divide or use jointly"
+  },
+  {
+    "base": "shine",
+    "past": "shone",
+    "pastParticiple": "shone",
+    "presentParticiple": "shining",
+    "thirdPerson": "shines",
+    "type": "irregular",
+    "meaning": "To emit or reflect light"
+  },
+  {
+    "base": "shout",
+    "past": "shouted",
+    "pastParticiple": "shouted",
+    "presentParticiple": "shouting",
+    "thirdPerson": "shouts",
+    "type": "regular",
+    "meaning": "To cry out loudly"
+  },
+  {
+    "base": "show",
+    "past": "showed",
+    "pastParticiple": "shown",
+    "presentParticiple": "showing",
+    "thirdPerson": "shows",
+    "type": "irregular",
+    "meaning": "To display or demonstrate"
+  },
+  {
+    "base": "shut",
+    "past": "shut",
+    "pastParticiple": "shut",
+    "presentParticiple": "shutting",
+    "thirdPerson": "shuts",
+    "type": "irregular",
+    "meaning": "To close"
+  },
+  {
+    "base": "sign",
+    "past": "signed",
+    "pastParticiple": "signed",
+    "presentParticiple": "signing",
+    "thirdPerson": "signs",
+    "type": "regular",
+    "meaning": "To write one's name"
+  },
+  {
+    "base": "smell",
+    "past": "smelled/smelt",
+    "pastParticiple": "smelled/smelt",
+    "presentParticiple": "smelling",
+    "thirdPerson": "smells",
+    "type": "irregular",
+    "meaning": "To perceive or emit odor"
+  },
+  {
+    "base": "smile",
+    "past": "smiled",
+    "pastParticiple": "smiled",
+    "presentParticiple": "smiling",
+    "thirdPerson": "smiles",
+    "type": "regular",
+    "meaning": "To show happiness"
+  },
+  {
+    "base": "solve",
+    "past": "solved",
+    "pastParticiple": "solved",
+    "presentParticiple": "solving",
+    "thirdPerson": "solves",
+    "type": "regular",
+    "meaning": "To find a solution"
+  },
+  {
+    "base": "sort",
+    "past": "sorted",
+    "pastParticiple": "sorted",
+    "presentParticiple": "sorting",
+    "thirdPerson": "sorts",
+    "type": "regular",
+    "meaning": "To arrange by category"
+  },
+  {
+    "base": "spell",
+    "past": "spelled/spelt",
+    "pastParticiple": "spelled/spelt",
+    "presentParticiple": "spelling",
+    "thirdPerson": "spells",
+    "type": "irregular",
+    "meaning": "To write letters of a word"
+  },
+  {
+    "base": "spend",
+    "past": "spent",
+    "pastParticiple": "spent",
+    "presentParticiple": "spending",
+    "thirdPerson": "spends",
+    "type": "irregular",
+    "meaning": "To pay out or use"
+  },
+  {
+    "base": "spread",
+    "past": "spread",
+    "pastParticiple": "spread",
+    "presentParticiple": "spreading",
+    "thirdPerson": "spreads",
+    "type": "irregular",
+    "meaning": "To extend or scatter"
+  },
+  {
+    "base": "steal",
+    "past": "stole",
+    "pastParticiple": "stolen",
+    "presentParticiple": "stealing",
+    "thirdPerson": "steals",
+    "type": "irregular",
+    "meaning": "To take without permission"
+  },
+  {
+    "base": "stick",
+    "past": "stuck",
+    "pastParticiple": "stuck",
+    "presentParticiple": "sticking",
+    "thirdPerson": "sticks",
+    "type": "irregular",
+    "meaning": "To attach or pierce"
+  },
+  {
+    "base": "store",
+    "past": "stored",
+    "pastParticiple": "stored",
+    "presentParticiple": "storing",
+    "thirdPerson": "stores",
+    "type": "regular",
+    "meaning": "To keep for later use"
+  },
+  {
+    "base": "stretch",
+    "past": "stretched",
+    "pastParticiple": "stretched",
+    "presentParticiple": "stretching",
+    "thirdPerson": "stretches",
+    "type": "regular",
+    "meaning": "To extend or lengthen"
+  },
+  {
+    "base": "succeed",
+    "past": "succeeded",
+    "pastParticiple": "succeeded",
+    "presentParticiple": "succeeding",
+    "thirdPerson": "succeeds",
+    "type": "regular",
+    "meaning": "To achieve success"
+  },
+  {
+    "base": "suffer",
+    "past": "suffered",
+    "pastParticiple": "suffered",
+    "presentParticiple": "suffering",
+    "thirdPerson": "suffers",
+    "type": "regular",
+    "meaning": "To experience pain"
+  },
+  {
+    "base": "suggest",
+    "past": "suggested",
+    "pastParticiple": "suggested",
+    "presentParticiple": "suggesting",
+    "thirdPerson": "suggests",
+    "type": "regular",
+    "meaning": "To put forward an idea"
+  },
+  {
+    "base": "support",
+    "past": "supported",
+    "pastParticiple": "supported",
+    "presentParticiple": "supporting",
+    "thirdPerson": "supports",
+    "type": "regular",
+    "meaning": "To hold up or assist"
+  },
+  {
+    "base": "suppose",
+    "past": "supposed",
+    "pastParticiple": "supposed",
+    "presentParticiple": "supposing",
+    "thirdPerson": "supposes",
+    "type": "regular",
+    "meaning": "To assume or believe"
+  },
+  {
+    "base": "surprise",
+    "past": "surprised",
+    "pastParticiple": "surprised",
+    "presentParticiple": "surprising",
+    "thirdPerson": "surprises",
+    "type": "regular",
+    "meaning": "To astonish unexpectedly"
+  },
+  {
+    "base": "survive",
+    "past": "survived",
+    "pastParticiple": "survived",
+    "presentParticiple": "surviving",
+    "thirdPerson": "survives",
+    "type": "regular",
+    "meaning": "To continue to exist"
+  },
+  {
+    "base": "taste",
+    "past": "tasted",
+    "pastParticiple": "tasted",
+    "presentParticiple": "tasting",
+    "thirdPerson": "tastes",
+    "type": "regular",
+    "meaning": "To perceive flavor"
+  },
+  {
+    "base": "teach",
+    "past": "taught",
+    "pastParticiple": "taught",
+    "presentParticiple": "teaching",
+    "thirdPerson": "teaches",
+    "type": "irregular",
+    "meaning": "To impart knowledge"
+  },
+  {
+    "base": "tear",
+    "past": "tore",
+    "pastParticiple": "torn",
+    "presentParticiple": "tearing",
+    "thirdPerson": "tears",
+    "type": "irregular",
+    "meaning": "To rip or pull apart"
+  },
+  {
+    "base": "thank",
+    "past": "thanked",
+    "pastParticiple": "thanked",
+    "presentParticiple": "thanking",
+    "thirdPerson": "thanks",
+    "type": "regular",
+    "meaning": "To express gratitude"
+  },
+  {
+    "base": "throw",
+    "past": "threw",
+    "pastParticiple": "thrown",
+    "presentParticiple": "throwing",
+    "thirdPerson": "throws",
+    "type": "irregular",
+    "meaning": "To propel through the air"
+  },
+  {
+    "base": "touch",
+    "past": "touched",
+    "pastParticiple": "touched",
+    "presentParticiple": "touching",
+    "thirdPerson": "touches",
+    "type": "regular",
+    "meaning": "To make physical contact"
+  },
+  {
+    "base": "travel",
+    "past": "traveled",
+    "pastParticiple": "traveled",
+    "presentParticiple": "traveling",
+    "thirdPerson": "travels",
+    "type": "regular",
+    "meaning": "To make a journey"
+  },
+  {
+    "base": "treat",
+    "past": "treated",
+    "pastParticiple": "treated",
+    "presentParticiple": "treating",
+    "thirdPerson": "treats",
+    "type": "regular",
+    "meaning": "To deal with or give care"
+  },
+  {
+    "base": "trust",
+    "past": "trusted",
+    "pastParticiple": "trusted",
+    "presentParticiple": "trusting",
+    "thirdPerson": "trusts",
+    "type": "regular",
+    "meaning": "To believe in reliability"
+  },
+  {
+    "base": "turn",
+    "past": "turned",
+    "pastParticiple": "turned",
+    "presentParticiple": "turning",
+    "thirdPerson": "turns",
+    "type": "regular",
+    "meaning": "To rotate or change direction"
+  },
+  {
+    "base": "use",
+    "past": "used",
+    "pastParticiple": "used",
+    "presentParticiple": "using",
+    "thirdPerson": "uses",
+    "type": "regular",
+    "meaning": "To employ for a purpose"
+  },
+  {
+    "base": "visit",
+    "past": "visited",
+    "pastParticiple": "visited",
+    "presentParticiple": "visiting",
+    "thirdPerson": "visits",
+    "type": "regular",
+    "meaning": "To go and see"
+  },
+  {
+    "base": "wait",
+    "past": "waited",
+    "pastParticiple": "waited",
+    "presentParticiple": "waiting",
+    "thirdPerson": "waits",
+    "type": "regular",
+    "meaning": "To stay in expectation"
+  },
+  {
+    "base": "wake",
+    "past": "woke",
+    "pastParticiple": "woken",
+    "presentParticiple": "waking",
+    "thirdPerson": "wakes",
+    "type": "irregular",
+    "meaning": "To stop sleeping"
+  },
+  {
+    "base": "wash",
+    "past": "washed",
+    "pastParticiple": "washed",
+    "presentParticiple": "washing",
+    "thirdPerson": "washes",
+    "type": "regular",
+    "meaning": "To clean with water"
+  },
+  {
+    "base": "waste",
+    "past": "wasted",
+    "pastParticiple": "wasted",
+    "presentParticiple": "wasting",
+    "thirdPerson": "wastes",
+    "type": "regular",
+    "meaning": "To use carelessly"
+  },
+  {
+    "base": "wear",
+    "past": "wore",
+    "pastParticiple": "worn",
+    "presentParticiple": "wearing",
+    "thirdPerson": "wears",
+    "type": "irregular",
+    "meaning": "To have on the body"
+  },
+  {
+    "base": "weigh",
+    "past": "weighed",
+    "pastParticiple": "weighed",
+    "presentParticiple": "weighing",
+    "thirdPerson": "weighs",
+    "type": "regular",
+    "meaning": "To measure weight"
+  },
+  {
+    "base": "welcome",
+    "past": "welcomed",
+    "pastParticiple": "welcomed",
+    "presentParticiple": "welcoming",
+    "thirdPerson": "welcomes",
+    "type": "regular",
+    "meaning": "To greet or receive gladly"
+  },
+  {
+    "base": "whisper",
+    "past": "whispered",
+    "pastParticiple": "whispered",
+    "presentParticiple": "whispering",
+    "thirdPerson": "whispers",
+    "type": "regular",
+    "meaning": "To speak quietly"
+  },
+  {
+    "base": "wish",
+    "past": "wished",
+    "pastParticiple": "wished",
+    "presentParticiple": "wishing",
+    "thirdPerson": "wishes",
+    "type": "regular",
+    "meaning": "To desire or hope"
+  },
+  {
+    "base": "wonder",
+    "past": "wondered",
+    "pastParticiple": "wondered",
+    "presentParticiple": "wondering",
+    "thirdPerson": "wonders",
+    "type": "regular",
+    "meaning": "To be curious or doubt"
+  },
+  {
+    "base": "worry",
+    "past": "worried",
+    "pastParticiple": "worried",
+    "presentParticiple": "worrying",
+    "thirdPerson": "worries",
+    "type": "regular",
+    "meaning": "To feel anxious"
+  },
+  {
+    "base": "wrap",
+    "past": "wrapped",
+    "pastParticiple": "wrapped",
+    "presentParticiple": "wrapping",
+    "thirdPerson": "wraps",
+    "type": "regular",
+    "meaning": "To cover or enclose"
   }
 ]
