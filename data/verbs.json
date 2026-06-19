@@ -3148,5 +3148,257 @@
     "thirdPerson": "punishes",
     "type": "regular",
     "meaning": "To impose a penalty"
+  },
+  {
+    "base": "push",
+    "past": "pushed",
+    "pastParticiple": "pushed",
+    "presentParticiple": "pushing",
+    "thirdPerson": "pushes",
+    "type": "regular",
+    "meaning": "To exert force forward"
+  },
+  {
+    "base": "race",
+    "past": "raced",
+    "pastParticiple": "raced",
+    "presentParticiple": "racing",
+    "thirdPerson": "races",
+    "type": "regular",
+    "meaning": "To compete in speed"
+  },
+  {
+    "base": "raise",
+    "past": "raised",
+    "pastParticiple": "raised",
+    "presentParticiple": "raising",
+    "thirdPerson": "raises",
+    "type": "regular",
+    "meaning": "To lift or increase"
+  },
+  {
+    "base": "reach",
+    "past": "reached",
+    "pastParticiple": "reached",
+    "presentParticiple": "reaching",
+    "thirdPerson": "reaches",
+    "type": "regular",
+    "meaning": "To arrive at or extend"
+  },
+  {
+    "base": "realize",
+    "past": "realized",
+    "pastParticiple": "realized",
+    "presentParticiple": "realizing",
+    "thirdPerson": "realizes",
+    "type": "regular",
+    "meaning": "To become aware or achieve"
+  },
+  {
+    "base": "receive",
+    "past": "received",
+    "pastParticiple": "received",
+    "presentParticiple": "receiving",
+    "thirdPerson": "receives",
+    "type": "regular",
+    "meaning": "To get or accept"
+  },
+  {
+    "base": "recognize",
+    "past": "recognized",
+    "pastParticiple": "recognized",
+    "presentParticiple": "recognizing",
+    "thirdPerson": "recognizes",
+    "type": "regular",
+    "meaning": "To identify from previous experience"
+  },
+  {
+    "base": "record",
+    "past": "recorded",
+    "pastParticiple": "recorded",
+    "presentParticiple": "recording",
+    "thirdPerson": "records",
+    "type": "regular",
+    "meaning": "To capture or document"
+  },
+  {
+    "base": "reduce",
+    "past": "reduced",
+    "pastParticiple": "reduced",
+    "presentParticiple": "reducing",
+    "thirdPerson": "reduces",
+    "type": "regular",
+    "meaning": "To make smaller or less"
+  },
+  {
+    "base": "refuse",
+    "past": "refused",
+    "pastParticiple": "refused",
+    "presentParticiple": "refusing",
+    "thirdPerson": "refuses",
+    "type": "regular",
+    "meaning": "To decline or reject"
+  },
+  {
+    "base": "regret",
+    "past": "regretted",
+    "pastParticiple": "regretted",
+    "presentParticiple": "regretting",
+    "thirdPerson": "regrets",
+    "type": "regular",
+    "meaning": "To feel remorse"
+  },
+  {
+    "base": "relax",
+    "past": "relaxed",
+    "pastParticiple": "relaxed",
+    "presentParticiple": "relaxing",
+    "thirdPerson": "relaxes",
+    "type": "regular",
+    "meaning": "To rest or reduce tension"
+  },
+  {
+    "base": "release",
+    "past": "released",
+    "pastParticiple": "released",
+    "presentParticiple": "releasing",
+    "thirdPerson": "releases",
+    "type": "regular",
+    "meaning": "To set free or allow"
+  },
+  {
+    "base": "remain",
+    "past": "remained",
+    "pastParticiple": "remained",
+    "presentParticiple": "remaining",
+    "thirdPerson": "remains",
+    "type": "regular",
+    "meaning": "To stay or continue"
+  },
+  {
+    "base": "remember",
+    "past": "remembered",
+    "pastParticiple": "remembered",
+    "presentParticiple": "remembering",
+    "thirdPerson": "remembers",
+    "type": "regular",
+    "meaning": "To recall"
+  },
+  {
+    "base": "remove",
+    "past": "removed",
+    "pastParticiple": "removed",
+    "presentParticiple": "removing",
+    "thirdPerson": "removes",
+    "type": "regular",
+    "meaning": "To take away"
+  },
+  {
+    "base": "repair",
+    "past": "repaired",
+    "pastParticiple": "repaired",
+    "presentParticiple": "repairing",
+    "thirdPerson": "repairs",
+    "type": "regular",
+    "meaning": "To fix or restore"
+  },
+  {
+    "base": "repeat",
+    "past": "repeated",
+    "pastParticiple": "repeated",
+    "presentParticiple": "repeating",
+    "thirdPerson": "repeats",
+    "type": "regular",
+    "meaning": "To say or do again"
+  },
+  {
+    "base": "replace",
+    "past": "replaced",
+    "pastParticiple": "replaced",
+    "presentParticiple": "replacing",
+    "thirdPerson": "replaces",
+    "type": "regular",
+    "meaning": "To put something else in place"
+  },
+  {
+    "base": "reply",
+    "past": "replied",
+    "pastParticiple": "replied",
+    "presentParticiple": "replying",
+    "thirdPerson": "replies",
+    "type": "regular",
+    "meaning": "To respond"
+  },
+  {
+    "base": "report",
+    "past": "reported",
+    "pastParticiple": "reported",
+    "presentParticiple": "reporting",
+    "thirdPerson": "reports",
+    "type": "regular",
+    "meaning": "To give an account"
+  },
+  {
+    "base": "request",
+    "past": "requested",
+    "pastParticiple": "requested",
+    "presentParticiple": "requesting",
+    "thirdPerson": "requests",
+    "type": "regular",
+    "meaning": "To ask for"
+  },
+  {
+    "base": "respect",
+    "past": "respected",
+    "pastParticiple": "respected",
+    "presentParticiple": "respecting",
+    "thirdPerson": "respects",
+    "type": "regular",
+    "meaning": "To show esteem"
+  },
+  {
+    "base": "return",
+    "past": "returned",
+    "pastParticiple": "returned",
+    "presentParticiple": "returning",
+    "thirdPerson": "returns",
+    "type": "regular",
+    "meaning": "To go or give back"
+  },
+  {
+    "base": "rub",
+    "past": "rubbed",
+    "pastParticiple": "rubbed",
+    "presentParticiple": "rubbing",
+    "thirdPerson": "rubs",
+    "type": "regular",
+    "meaning": "To move back and forth"
+  },
+  {
+    "base": "ruin",
+    "past": "ruined",
+    "pastParticiple": "ruined",
+    "presentParticiple": "ruining",
+    "thirdPerson": "ruins",
+    "type": "regular",
+    "meaning": "To destroy or spoil"
+  },
+  {
+    "base": "satisfy",
+    "past": "satisfied",
+    "pastParticiple": "satisfied",
+    "presentParticiple": "satisfying",
+    "thirdPerson": "satisfies",
+    "type": "regular",
+    "meaning": "To fulfill or please"
+  },
+  {
+    "base": "save",
+    "past": "saved",
+    "pastParticiple": "saved",
+    "presentParticiple": "saving",
+    "thirdPerson": "saves",
+    "type": "regular",
+    "meaning": "To rescue or store"
   }
 ]
