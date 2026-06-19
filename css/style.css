@@ -1,0 +1,343 @@
+/* global css */
+/* ── Variables ─────────────────────────────────────────── */
+:root {
+  --c-950: #d4eed7; /* page background - light mint      */
+  --c-900: #c2e3c6; /* card background - slightly deeper  */
+  --c-800: #8eb69b; /* borders, subtle bg - sage          */
+  --c-700: #235347; /* muted text, secondary - sea green  */
+  --c-400: #0b2b26; /* accent, icons - deep pine          */
+  --c-100: #051f20; /* primary text - darkest forest      */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+
+  --transition: 0.18s ease;
+}
+
+/* ── Reset ─────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--c-950);
+  color: var(--c-100);
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition);
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  background: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ── Typography ────────────────────────────────────────── */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.2;
+  color: var(--c-100);
+}
+
+.display {
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.heading-lg {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+}
+.heading-md {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--c-400);
+}
+.muted {
+  color: var(--c-400);
+}
+.mono {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* ── Layout ────────────────────────────────────────────── */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container--narrow {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ── Navbar ────────────────────────────────────────────── */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(212, 238, 215, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--c-800);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--c-100);
+}
+
+.navbar__logo span {
+  color: var(--c-400);
+}
+.navbar__logo svg {
+  color: var(--c-400);
+}
+
+.navbar__links {
+  display: flex;
+  gap: 4px;
+}
+
+.navbar__link {
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--c-400);
+  transition: all var(--transition);
+}
+
+.navbar__toggle {
+  display: none;
+  color: var(--c-100);
+  padding: 4px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar__inner {
+    height: 64px;
+  }
+
+  .navbar__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar__links {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+
+    display: none;
+    flex-direction: column;
+    gap: 0;
+
+    background: var(--c-950);
+    border-top: 1px solid var(--c-800);
+    border-bottom: 1px solid var(--c-800);
+
+    padding: 10px;
+  }
+
+  .navbar__links.active {
+    display: flex;
+  }
+
+  .navbar__link {
+    padding: 12px 16px;
+    border-radius: var(--radius-sm);
+  }
+}
+
+.navbar__link:hover {
+  color: var(--c-100);
+  background: var(--c-900);
+}
+.navbar__link.active {
+  color: var(--c-950);
+  background: var(--c-700);
+}
+
+/* ── Buttons ───────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 22px;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all var(--transition);
+  cursor: pointer;
+}
+
+.btn--primary {
+  background: var(--c-400);
+  color: var(--c-950);
+}
+.btn--primary:hover {
+  background: var(--c-100);
+}
+
+.btn--outline {
+  border: 1px solid var(--c-700);
+  color: var(--c-100);
+  background: transparent;
+}
+.btn--outline:hover {
+  background: var(--c-900);
+  border-color: var(--c-400);
+}
+
+/* ── Cards ─────────────────────────────────────────────── */
+.card {
+  background: var(--c-900);
+  border: 1px solid var(--c-800);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  transition: all var(--transition);
+}
+
+.card:hover {
+  border-color: var(--c-700);
+  transform: translateY(-2px);
+}
+
+.card--link {
+  cursor: pointer;
+  display: block;
+}
+
+/* ── Badge / Tag ───────────────────────────────────────── */
+.tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  background: var(--c-800);
+  color: var(--c-400);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  border: 1px solid var(--c-700);
+  color: var(--c-400);
+}
+
+/* ── Divider ───────────────────────────────────────────── */
+.divider {
+  border: none;
+  border-top: 1px solid var(--c-800);
+}
+
+/* ── Footer ────────────────────────────────────────────── */
+.footer {
+  border-top: 1px solid var(--c-900);
+  padding: 28px 0;
+  text-align: center;
+  color: var(--c-700);
+  font-size: 0.8rem;
+}
+
+/* ── Pill indicator ────────────────────────────────────── */
+.dot-pulse {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--c-400);
+  animation: pulse 2s infinite;
+  display: inline-block;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+/* ── Scrollbar ─────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--c-900);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--c-700);
+  border-radius: 3px;
+}
+
+/* ── Responsive ────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .navbar__links {
+    gap: 2px;
+  }
+  .navbar__link {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+}

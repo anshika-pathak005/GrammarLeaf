@@ -1,0 +1,726 @@
+[
+  {
+    "id": "simple-present",
+    "name": "Simple Present Tense",
+    "group": "present",
+    "identification": [
+      "Used for habits and daily routines.",
+      "Used for repeated or regular actions.",
+      "Used for universal truths and facts.",
+      "Used for fixed schedules and timetables.",
+      "The verb usually appears in its first form (V1), with s/es added for third-person singular subjects."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Do",
+        "usedWith": "I, We, You, They and plural subjects"
+      },
+      {
+        "verb": "Does",
+        "usedWith": "He, She, It and singular subjects"
+      }
+    ],
+    "uses": [
+      "Daily habits",
+      "Regular activities",
+      "Universal truths",
+      "Fixed schedules and timetables"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + V1/V1+s/es + Object",
+        "note": [
+          "Use s/es with He, She, It and singular subjects.",
+          "Use the first form of the verb (V1) with I, We, You, They and plural subjects."
+        ],
+        "examples": [
+          "The manager checks every report carefully.",
+          "She attends online classes regularly."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Do/Does + Not + V1 + Object",
+        "examples": [
+          "He does not waste his study time.",
+          "They do not participate in every competition."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Do/Does + Subject + V1 + Object ?",
+        "examples": [
+          "Does she complete her assignments on time?",
+          "Do they visit the library regularly?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Do/Does + Subject + V1 + Object ?",
+        "examples": [
+          "Why does he prefer reading at night?",
+          "When do they submit their project reports?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "present-continuous",
+    "name": "Present Continuous Tense",
+    "group": "present",
+    "identification": [
+      "Used for actions happening at the moment of speaking.",
+      "Used for temporary ongoing actions.",
+      "Used for actions happening around the present time.",
+      "Used for planned future arrangements.",
+      "The main verb appears in the -ing form."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Am",
+        "usedWith": "I"
+      },
+      {
+        "verb": "Is",
+        "usedWith": "He, She, It and singular subjects"
+      },
+      {
+        "verb": "Are",
+        "usedWith": "We, You, They and plural subjects"
+      }
+    ],
+    "uses": [
+      "Actions happening now",
+      "Temporary situations",
+      "Current activities",
+      "Future arrangements"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Is/Am/Are + V1+ing + Object",
+        "examples": [
+          "She is preparing for her final examination.",
+          "The children are playing in the school playground."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Is/Am/Are + Not + V1+ing + Object",
+        "examples": [
+          "He is not attending the meeting today.",
+          "They are not watching television right now."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Is/Am/Are + Subject + V1+ing + Object ?",
+        "examples": [
+          "Are the students completing their assignments?",
+          "Is she working on the new project?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Is/Am/Are + Subject + V1+ing + Object ?",
+        "examples": [
+          "Why are they discussing the issue?",
+          "What is she writing in her notebook?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "present-perfect",
+    "name": "Present Perfect Tense",
+    "group": "present",
+    "identification": [
+      "Used for actions completed recently.",
+      "Used for actions whose result is important in the present.",
+      "Used for life experiences.",
+      "Used for actions completed at an unspecified time in the past.",
+      "The main verb appears in its third form (V3)."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Has",
+        "usedWith": "He, She, It and singular subjects"
+      },
+      {
+        "verb": "Have",
+        "usedWith": "I, We, You, They and plural subjects"
+      }
+    ],
+    "uses": [
+      "Recently completed actions",
+      "Present results of past actions",
+      "Life experiences",
+      "Achievements and accomplishments"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Has/Have + V3 + Object",
+        "examples": [
+          "She has completed her science project.",
+          "They have submitted the application form."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Has/Have + Not + V3 + Object",
+        "examples": [
+          "He has not finished his homework yet.",
+          "We have not received the confirmation email."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Has/Have + Subject + V3 + Object ?",
+        "examples": [
+          "Have you visited the museum before?",
+          "Has she completed the assignment?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Has/Have + Subject + V3 + Object ?",
+        "examples": [
+          "Why have they cancelled the event?",
+          "What has he achieved this year?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "present-perfect-continuous",
+    "name": "Present Perfect Continuous Tense",
+    "group": "present",
+    "identification": [
+      "Used for actions that started in the past and are still continuing.",
+      "Used to show duration of an activity.",
+      "Used for ongoing actions with present results.",
+      "Commonly used with since and for.",
+      "The main verb appears in the -ing form."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Has Been",
+        "usedWith": "He, She, It and singular subjects"
+      },
+      {
+        "verb": "Have Been",
+        "usedWith": "I, We, You, They and plural subjects"
+      }
+    ],
+    "uses": [
+      "Ongoing actions from the past",
+      "Duration of activities",
+      "Actions continuing until now",
+      "Present effects of continuous actions"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Has/Have + Been + V1+ing + Object",
+        "examples": [
+          "She has been preparing for the examination since morning.",
+          "They have been working on the project for several weeks."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Has/Have + Not + Been + V1+ing + Object",
+        "examples": [
+          "He has not been attending classes regularly.",
+          "We have not been using the old system lately."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Has/Have + Subject + Been + V1+ing + Object ?",
+        "examples": [
+          "Have you been waiting for a long time?",
+          "Has she been practicing for the competition?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Has/Have + Subject + Been + V1+ing + Object ?",
+        "examples": [
+          "How long have they been living here?",
+          "Why has he been avoiding the discussion?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "simple-past",
+    "name": "Simple Past Tense",
+    "group": "past",
+    "identification": [
+      "Used for actions completed in the past.",
+      "Used for events that happened at a specific time in the past.",
+      "Used for past habits and routines.",
+      "Used for a sequence of completed actions in the past.",
+      "The main verb appears in its second form (V2)."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Did",
+        "usedWith": "All subjects in negative and interrogative sentences"
+      }
+    ],
+    "uses": [
+      "Completed past actions",
+      "Past events",
+      "Past habits",
+      "Historical facts"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + V2 + Object",
+        "examples": [
+          "She completed the project before the deadline.",
+          "The team won the championship last year."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Did + Not + V1 + Object",
+        "examples": [
+          "He did not attend the seminar yesterday.",
+          "They did not finish the assignment on time."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Did + Subject + V1 + Object ?",
+        "examples": [
+          "Did you submit the application form?",
+          "Did she participate in the competition?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Did + Subject + V1 + Object ?",
+        "examples": [
+          "Why did they cancel the meeting?",
+          "When did he complete the training?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "past-continuous",
+    "name": "Past Continuous Tense",
+    "group": "past",
+    "identification": [
+      "Used for actions that were in progress at a particular time in the past.",
+      "Used for interrupted actions in the past.",
+      "Used for two actions happening simultaneously in the past.",
+      "Used to describe background situations in stories.",
+      "The main verb appears in the -ing form."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Was",
+        "usedWith": "I, He, She, It and singular subjects"
+      },
+      {
+        "verb": "Were",
+        "usedWith": "We, You, They and plural subjects"
+      }
+    ],
+    "uses": [
+      "Ongoing past actions",
+      "Interrupted actions",
+      "Parallel actions in the past",
+      "Background descriptions"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Was/Were + V1+ing + Object",
+        "examples": [
+          "She was preparing a presentation at that time.",
+          "The students were discussing the project after class."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Was/Were + Not + V1+ing + Object",
+        "examples": [
+          "He was not paying attention during the lecture.",
+          "They were not working on the assignment yesterday evening."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Was/Were + Subject + V1+ing + Object ?",
+        "examples": [
+          "Were the players practicing before the match?",
+          "Was she waiting for the bus?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Was/Were + Subject + V1+ing + Object ?",
+        "examples": [
+          "Why were they arguing in the meeting?",
+          "What was she doing when the announcement was made?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "past-perfect",
+    "name": "Past Perfect Tense",
+    "group": "past",
+    "identification": [
+      "Used for an action completed before another action in the past.",
+      "Used to show which of two past actions happened first.",
+      "Used to describe a completed action before a specific past time.",
+      "Often used when talking about past experiences or sequences of events.",
+      "The main verb appears in its third form (V3)."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Had",
+        "usedWith": "All subjects"
+      }
+    ],
+    "uses": [
+      "Earlier past actions",
+      "Sequence of past events",
+      "Completed actions before a past moment",
+      "Past experiences"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Had + V3 + Object",
+        "examples": [
+          "She had completed the report before the meeting started.",
+          "They had already left when we reached the station."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Had + Not + V3 + Object",
+        "examples": [
+          "He had not submitted the assignment before the deadline.",
+          "We had not visited that museum before the trip."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Had + Subject + V3 + Object ?",
+        "examples": [
+          "Had she finished the project before the inspection?",
+          "Had they informed you about the change?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Had + Subject + V3 + Object ?",
+        "examples": [
+          "Why had he resigned before the announcement?",
+          "What had they planned before the event was cancelled?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "past-perfect-continuous",
+    "name": "Past Perfect Continuous Tense",
+    "group": "past",
+    "identification": [
+      "Used for an action that had been continuing before a specific time in the past.",
+      "Used to show the duration of an activity before another past event.",
+      "Used for ongoing actions that ended before a past moment.",
+      "Often used with 'since' and 'for' to indicate duration.",
+      "The main verb appears in the -ing form."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Had Been",
+        "usedWith": "All subjects"
+      }
+    ],
+    "uses": [
+      "Duration before a past event",
+      "Ongoing past activities",
+      "Cause of a past situation",
+      "Actions continuing up to a past moment"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Had + Been + V1+ing + Object",
+        "examples": [
+          "She had been preparing for the examination for several months.",
+          "They had been working on the project since January."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Had + Not + Been + V1+ing + Object",
+        "examples": [
+          "He had not been attending classes regularly before the test.",
+          "We had not been using the software for very long."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Had + Subject + Been + V1+ing + Object ?",
+        "examples": [
+          "Had she been practicing for the competition?",
+          "Had they been waiting for a long time?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Had + Subject + Been + V1+ing + Object ?",
+        "examples": [
+          "How long had he been working there before he resigned?",
+          "Why had they been discussing the issue for so many days?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "simple-future",
+    "name": "Simple Future Tense",
+    "group": "future",
+    "identification": [
+      "Used for actions that will happen in the future.",
+      "Used for predictions and assumptions about the future.",
+      "Used for promises, offers, and decisions made at the moment of speaking.",
+      "Used for future facts and events.",
+      "The main verb appears in its first form (V1)."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Will",
+        "usedWith": "All subjects"
+      }
+    ],
+    "uses": [
+      "Future actions",
+      "Predictions",
+      "Promises and offers",
+      "Future decisions"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Will + V1 + Object",
+        "examples": [
+          "She will complete the project before the deadline.",
+          "The company will launch a new product next month."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Will + Not + V1 + Object",
+        "examples": [
+          "He will not attend the conference tomorrow.",
+          "They will not support the proposal."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Will + Subject + V1 + Object ?",
+        "examples": [
+          "Will she participate in the competition?",
+          "Will they arrive before noon?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Will + Subject + V1 + Object ?",
+        "examples": [
+          "When will the meeting begin?",
+          "Why will they change the schedule?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "future-continuous",
+    "name": "Future Continuous Tense",
+    "group": "future",
+    "identification": [
+      "Used for actions that will be in progress at a specific time in the future.",
+      "Used for ongoing future activities.",
+      "Used to describe future plans or arrangements.",
+      "Used for actions expected to continue for a period of time in the future.",
+      "The main verb appears in the -ing form."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Will Be",
+        "usedWith": "All subjects"
+      }
+    ],
+    "uses": [
+      "Future ongoing actions",
+      "Planned future activities",
+      "Actions in progress at a future time",
+      "Future arrangements"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Will + Be + V1+ing + Object",
+        "examples": [
+          "She will be attending the workshop tomorrow afternoon.",
+          "The students will be taking their examination at this time next week."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Will + Not + Be + V1+ing + Object",
+        "examples": [
+          "He will not be working during the holidays.",
+          "They will not be travelling next month."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Will + Subject + Be + V1+ing + Object ?",
+        "examples": [
+          "Will she be joining the meeting later?",
+          "Will they be staying at the hotel tonight?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Will + Subject + Be + V1+ing + Object ?",
+        "examples": [
+          "What will you be doing this time tomorrow?",
+          "Where will they be travelling next summer?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "future-perfect",
+    "name": "Future Perfect Tense",
+    "group": "future",
+    "identification": [
+      "Used for actions that will be completed before a specific future time.",
+      "Used to show completion before another future event.",
+      "Used for future achievements and accomplishments.",
+      "Used when focusing on the result of a future action.",
+      "The main verb appears in its third form (V3)."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Will Have",
+        "usedWith": "All subjects"
+      }
+    ],
+    "uses": [
+      "Completed future actions",
+      "Future achievements",
+      "Actions completed before a future event",
+      "Future results"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Will + Have + V3 + Object",
+        "examples": [
+          "She will have completed the training by next month.",
+          "They will have finished the construction work before winter."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Will + Not + Have + V3 + Object",
+        "examples": [
+          "He will not have submitted the report by Friday.",
+          "We will not have reached the destination by noon."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Will + Subject + Have + V3 + Object ?",
+        "examples": [
+          "Will she have completed the assignment by tomorrow?",
+          "Will they have finished the project before the inspection?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Will + Subject + Have + V3 + Object ?",
+        "examples": [
+          "When will they have completed the renovation work?",
+          "What will she have achieved by the end of the year?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "future-perfect-continuous",
+    "name": "Future Perfect Continuous Tense",
+    "group": "future",
+    "identification": [
+      "Used to show the duration of an action up to a specific future time.",
+      "Used for activities that will continue until a future point.",
+      "Used to emphasize how long an action will have been happening.",
+      "Often used with 'for' and 'since'.",
+      "The main verb appears in the -ing form."
+    ],
+    "helpingVerbs": [
+      {
+        "verb": "Will Have Been",
+        "usedWith": "All subjects"
+      }
+    ],
+    "uses": [
+      "Duration until a future point",
+      "Long-running future activities",
+      "Future ongoing actions",
+      "Emphasis on duration"
+    ],
+    "sentenceTypes": [
+      {
+        "name": "Positive Sentence",
+        "structure": "Subject + Will + Have + Been + V1+ing + Object",
+        "examples": [
+          "By next June, she will have been working at the company for five years.",
+          "They will have been studying for three hours by the time the test begins."
+        ]
+      },
+      {
+        "name": "Negative Sentence",
+        "structure": "Subject + Will + Not + Have + Been + V1+ing + Object",
+        "examples": [
+          "He will not have been living here for very long by then.",
+          "We will not have been using the system for a full year."
+        ]
+      },
+      {
+        "name": "Yes/No Interrogative Sentence",
+        "structure": "Will + Subject + Have + Been + V1+ing + Object ?",
+        "examples": [
+          "Will she have been teaching for ten years by next session?",
+          "Will they have been waiting for a long time when we arrive?"
+        ]
+      },
+      {
+        "name": "WH Interrogative Sentence",
+        "structure": "WH Word + Will + Subject + Have + Been + V1+ing + Object ?",
+        "examples": [
+          "How long will they have been working on the project by next month?",
+          "Why will he have been staying abroad for so many years?"
+        ]
+      }
+    ]
+  }
+]

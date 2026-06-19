@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz - GrammarLeaf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      .coming-page {
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 60px 20px;
+      }
+      .coming-page__inner {
+        max-width: 400px;
+      }
+      .coming-page__icon {
+        width: 64px;
+        height: 64px;
+        background: var(--c-900);
+        border: 1px solid var(--c-800);
+        border-radius: var(--radius-lg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 28px;
+        color: var(--c-400);
+      }
+      .coming-page h1 {
+        margin-bottom: 12px;
+      }
+      .coming-page p {
+        color: var(--c-400);
+        line-height: 1.7;
+        margin-bottom: 28px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+  <div class="container navbar__inner">
+    <a href="index.html" class="navbar__logo">
+      <i data-lucide="leaf" width="20" height="20"></i>
+      Grammar<span>Leaf</span>
+    </a>
+
+    <button class="navbar__toggle" id="navToggle">
+      <i data-lucide="menu" width="22" height="22"></i>
+    </button>
+
+    <div class="navbar__links" id="navLinks">
+      <a href="../index.html" class="navbar__link">Home</a>
+      <a href="tenses.html" class="navbar__link">Tenses</a>
+      <a href="verbs.html" class="navbar__link">Verb Forms</a>
+      <a href="quiz.html" class="navbar__link">Quiz</a>
+    </div>
+  </div>
+</nav>
+
+    <div class="coming-page">
+      <div class="coming-page__inner">
+        <div class="coming-page__icon">
+          <i data-lucide="pencil" width="28" height="28"></i>
+        </div>
+        <h1 class="heading-lg">Quiz Coming Soon</h1>
+        <p>
+          Interactive quizzes are on the way - fill in the blanks, identify
+          tenses, and test your verb forms before exams.
+        </p>
+        <a href="../index.html" class="btn btn--outline">
+          <i data-lucide="arrow-left" width="15" height="15"></i>
+          Back to Home
+        </a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">GrammarLeaf - Built for Junior Students</div>
+    </footer>
+
+    <script src="../js/nav.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

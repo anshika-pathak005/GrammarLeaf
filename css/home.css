@@ -1,0 +1,140 @@
+/* ── Hero ──────────────────────────────────────────── */
+.hero {
+  padding: 80px 0 60px;
+  text-align: center;
+}
+.hero__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--c-900);
+  border: 1px solid var(--c-800);
+  border-radius: 99px;
+  padding: 5px 16px;
+  font-size: 0.78rem;
+  color: var(--c-400);
+  margin-bottom: 28px;
+}
+.hero__title {
+  margin-bottom: 18px;
+}
+.hero__title span {
+  color: var(--c-400);
+}
+.hero__subtitle {
+  color: var(--c-400);
+  font-size: 1.05rem;
+  max-width: 480px;
+  margin: 0 auto 36px;
+  line-height: 1.7;
+}
+.hero__actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ── Feature Grid ──────────────────────────────────── */
+.features {
+  padding: 20px 0 80px;
+}
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.feature-card {
+  background: var(--c-900);
+  border: 1px solid var(--c-800);
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: all var(--transition);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.feature-card:hover {
+  border-color: var(--c-700);
+  transform: translateY(-3px);
+}
+
+.feature-card__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: var(--c-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c-400);
+}
+.feature-card__label {
+  margin-bottom: 4px;
+}
+.feature-card__title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.feature-card__desc {
+  color: var(--c-400);
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+.feature-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--c-800);
+}
+
+.feature-card--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.feature-card--disabled:hover {
+  transform: none;
+  border-color: var(--c-800);
+}
+
+.coming-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--c-800);
+  color: var(--c-700);
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 99px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ── Quick tip strip ───────────────────────────────── */
+.tip-strip {
+  background: var(--c-900);
+  border: 1px solid var(--c-800);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 60px;
+  color: var(--c-400);
+  font-size: 0.875rem;
+}
+.tip-strip svg {
+  color: var(--c-400);
+  flex-shrink: 0;
+}
+.tip-strip strong {
+  color: var(--c-100);
+}

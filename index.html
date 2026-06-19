@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrammarLeaf - English Grammar for Students</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container navbar__inner">
+        <a href="index.html" class="navbar__logo">
+          <i data-lucide="leaf" width="20" height="20"></i>
+          Grammar<span>Leaf</span>
+        </a>
+
+        <button class="navbar__toggle" id="navToggle">
+          <i data-lucide="menu" width="22" height="22"></i>
+        </button>
+
+        <div class="navbar__links" id="navLinks">
+          <a href="index.html" class="navbar__link">Home</a>
+          <a href="pages/tenses.html" class="navbar__link">Tenses</a>
+          <a href="pages/verbs.html" class="navbar__link">Verb Forms</a>
+          <a href="pages/quiz.html" class="navbar__link">Quiz</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__pill">
+          <span class="dot-pulse"></span>
+          Free for Junior Students
+        </div>
+        <h1 class="display hero__title">
+          English Grammar<br /><span>Made Clear.</span>
+        </h1>
+        <p class="hero__subtitle">
+          Master tenses, verb forms, and sentence structures with simple
+          explanations, real examples, and handy quizzes.
+        </p>
+        <div class="hero__actions">
+          <a href="pages/tenses.html" class="btn btn--primary">
+            <i data-lucide="git-branch" width="16" height="16"></i>
+            Explore Tenses
+          </a>
+          <a href="pages/verbs.html" class="btn btn--outline">
+            <i data-lucide="search" width="16" height="16"></i>
+            Search Verbs
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Cards -->
+    <section class="features">
+      <div class="container">
+        <div class="tip-strip">
+          <i data-lucide="info" width="18" height="18"></i>
+          <span
+            ><strong>Tip:</strong> Start with the Tenses tree to understand how
+            all 12 tenses are connected, then use Verb Forms to look up any verb
+            instantly.</span
+          >
+        </div>
+
+        <div class="features__grid">
+          <a href="pages/tenses.html" class="feature-card">
+            <div class="feature-card__icon">
+              <i data-lucide="git-branch" width="22" height="22"></i>
+            </div>
+            <div>
+              <p class="label feature-card__label">All 12 Tenses</p>
+              <h2 class="feature-card__title">Tenses</h2>
+              <p class="feature-card__desc">
+                See all tenses laid out in a tree - Present, Past, Future, each
+                with 4 types. Click any tense for its structure, auxiliary
+                verbs, signal words, and examples.
+              </p>
+            </div>
+            <div class="feature-card__tags">
+              <span class="tag">Simple</span>
+              <span class="tag">Continuous</span>
+              <span class="tag">Perfect</span>
+              <span class="tag">Perfect Continuous</span>
+            </div>
+          </a>
+
+          <a href="pages/verbs.html" class="feature-card">
+            <div class="feature-card__icon">
+              <i data-lucide="search" width="22" height="22"></i>
+            </div>
+            <div>
+              <p class="label feature-card__label">Verb Forms</p>
+              <h2 class="feature-card__title">Verb Search</h2>
+              <p class="feature-card__desc">
+                Type any verb and instantly see all five forms - V1 base, V2
+                past, V3 past participle, V4 present participle, and third
+                person singular.
+              </p>
+            </div>
+            <div class="feature-card__tags">
+              <span class="tag">V1 Base</span>
+              <span class="tag">V2 Past</span>
+              <span class="tag">V3 Past Participle</span>
+              <span class="tag">V4 –ing</span>
+            </div>
+          </a>
+
+          <div class="feature-card feature-card--disabled">
+            <span class="coming-badge">Coming Soon</span>
+            <div class="feature-card__icon">
+              <i data-lucide="pencil" width="22" height="22"></i>
+            </div>
+            <div>
+              <p class="label feature-card__label">Test Yourself</p>
+              <h2 class="feature-card__title">Practice Quiz</h2>
+              <p class="feature-card__desc">
+                Fill in the blanks, identify tenses, and check your verb forms.
+                Quick quizzes to build confidence before exams.
+              </p>
+            </div>
+            <div class="feature-card__tags">
+              <span class="tag">Fill Blanks</span>
+              <span class="tag">Identify Tense</span>
+              <span class="tag">Verb Quiz</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">GrammarLeaf - Built for Junior Students</div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tenses - GrammarLeaf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/tenses.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container navbar__inner">
+        <a href="index.html" class="navbar__logo">
+          <i data-lucide="leaf" width="20" height="20"></i>
+          Grammar<span>Leaf</span>
+        </a>
+
+        <button class="navbar__toggle" id="navToggle">
+          <i data-lucide="menu" width="22" height="22"></i>
+        </button>
+
+        <div class="navbar__links" id="navLinks">
+          <a href="../index.html" class="navbar__link">Home</a>
+          <a href="tenses.html" class="navbar__link">Tenses</a>
+          <a href="verbs.html" class="navbar__link">Verb Forms</a>
+          <a href="quiz.html" class="navbar__link">Quiz</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="page-header">
+          <span class="label">Complete Guide</span>
+          <h1 class="heading-lg">All 12 Tenses</h1>
+          <p>
+            Click any tense to see its full breakdown - signal words, helping
+            verbs, sentence structures, and examples.
+          </p>
+        </div>
+
+        <div id="tense-tree"></div>
+
+        <div class="quick-ref">
+          <h3>
+            <i data-lucide="bookmark" width="17" height="17"></i>
+            Quick Reference - Auxiliary Verbs
+          </h3>
+          <div class="quick-ref__grid">
+            <div class="quick-ref__col">
+              <h4>Present</h4>
+              <ul>
+                <li>do / does</li>
+                <li>is / am / are</li>
+                <li>has / have</li>
+                <li>has been / have been</li>
+              </ul>
+            </div>
+            <div class="quick-ref__col">
+              <h4>Past</h4>
+              <ul>
+                <li>did</li>
+                <li>was / were</li>
+                <li>had</li>
+                <li>had been</li>
+              </ul>
+            </div>
+            <div class="quick-ref__col">
+              <h4>Future</h4>
+              <ul>
+                <li>will</li>
+                <li>will be</li>
+                <li>will have</li>
+                <li>will have been</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">GrammarLeaf - Built for Junior Students</div>
+    </footer>
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/tenses.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

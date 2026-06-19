@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verb Forms - GrammarLeaf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/verbs.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+  <div class="container navbar__inner">
+    <a href="index.html" class="navbar__logo">
+      <i data-lucide="leaf" width="20" height="20"></i>
+      Grammar<span>Leaf</span>
+    </a>
+
+    <button class="navbar__toggle" id="navToggle">
+      <i data-lucide="menu" width="22" height="22"></i>
+    </button>
+
+    <div class="navbar__links" id="navLinks">
+      <a href="../index.html" class="navbar__link">Home</a>
+      <a href="tenses.html" class="navbar__link">Tenses</a>
+      <a href="verbs.html" class="navbar__link">Verb Forms</a>
+      <a href="quiz.html" class="navbar__link">Quiz</a>
+    </div>
+  </div>
+</nav>
+
+    <main>
+      <div class="container">
+        <!-- Page header -->
+        <div
+          class="page-header"
+          style="padding: 48px 0 32px; text-align: center"
+        >
+          <span class="label" style="display: block; margin-bottom: 8px"
+            >Verb Forms</span
+          >
+          <h1 class="heading-lg" style="margin-bottom: 10px">
+            Search Any Verb
+          </h1>
+          <p
+            class="muted"
+            style="max-width: 420px; margin: 0 auto; line-height: 1.7"
+          >
+            Type a verb and instantly see all five forms - V1, V2, V3, V4, and
+            third person singular.
+          </p>
+        </div>
+
+        <!-- Search -->
+        <div class="search-wrap">
+          <div class="search-box">
+            <i data-lucide="search" width="18" height="18"></i>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Type a verb, e.g. go, eat, write..."
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <button
+              class="search-clear hidden"
+              id="search-clear"
+              aria-label="Clear"
+            >
+              <i data-lucide="x" width="16" height="16"></i>
+            </button>
+          </div>
+          <div class="suggestions hidden" id="suggestions"></div>
+        </div>
+
+        <!-- Result -->
+        <div id="result" class="hidden"></div>
+
+        <!-- Browse -->
+        <div class="browse-section" id="browse">
+          <h3>Or browse all verbs</h3>
+          <div class="browse-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="irregular">
+              Irregular
+            </button>
+            <button class="filter-btn" data-filter="regular">Regular</button>
+          </div>
+          <div class="verb-grid" id="verb-grid"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer" style="margin-top: 60px">
+      <div class="container">GrammarLeaf - Built for Junior Students</div>
+    </footer>
+
+    <script src="../js/nav.js"></script>
+    <script>
+      let verbs = [];
+      let activeFilter = "all";
+
+      const searchInput = document.getElementById("search-input");
+      const searchClear = document.getElementById("search-clear");
+      const suggestionsEl = document.getElementById("suggestions");
+      const resultEl = document.getElementById("result");
+      const browseEl = document.getElementById("browse");
+      const verbGrid = document.getElementById("verb-grid");
+
+      const formRows = [
+        { key: "base", label: "V1 - Base Form", sub: "Present / Infinitive" },
+        {
+          key: "thirdPerson",
+          label: "V1(s) - Third Person",
+          sub: "He / She / It",
+        },
+        {
+          key: "presentParticiple",
+          label: "V4 - Present Participle",
+          sub: "–ing form",
+        },
+        { key: "past", label: "V2 - Simple Past", sub: "Past tense" },
+        {
+          key: "pastParticiple",
+          label: "V3 - Past Participle",
+          sub: "Used with has / have / had",
+        },
+      ];
+
+      function renderVerb(verb) {
+        const rows = formRows
+          .map(
+            (f) => `
+        <div class="form-row">
+          <div class="form-row__label">
+            <div class="form-row__label-main">${f.label}</div>
+            <div class="form-row__label-sub">${f.sub}</div>
+          </div>
+          <div class="form-row__value">${verb[f.key]}</div>
+        </div>
+      `,
+          )
+          .join("");
+
+        resultEl.innerHTML = `
+        <div class="result-card">
+          <div class="result-card__header">
+            <div>
+              <div class="result-card__verb">to ${verb.base}</div>
+              <div class="result-card__meaning">${verb.meaning}</div>
+            </div>
+            <span class="verb-type tag type--${verb.type}">${verb.type}</span>
+          </div>
+          <div class="form-rows">${rows}</div>
+          <div class="usage-box">
+            <h4><i data-lucide="pin" width="14" height="14"></i> Quick Usage</h4>
+            <div class="usage-row">
+              <span class="usage-label">Present</span>
+              <span class="usage-ex">I ${verb.base} &nbsp;/&nbsp; She ${verb.thirdPerson}</span>
+            </div>
+            <div class="usage-row">
+              <span class="usage-label">Past</span>
+              <span class="usage-ex">I ${verb.past}</span>
+            </div>
+            <div class="usage-row">
+              <span class="usage-label">Perfect</span>
+              <span class="usage-ex">I have ${verb.pastParticiple}</span>
+            </div>
+            <div class="usage-row">
+              <span class="usage-label">Continuous</span>
+              <span class="usage-ex">I am ${verb.presentParticiple}</span>
+            </div>
+          </div>
+        </div>
+      `;
+        resultEl.classList.remove("hidden");
+        browseEl.classList.add("hidden");
+        lucide.createIcons();
+      }
+
+      function showSuggestions(query) {
+        if (!query) {
+          suggestionsEl.classList.add("hidden");
+          return;
+        }
+        const matches = verbs
+          .filter((v) => v.base.startsWith(query.toLowerCase()))
+          .slice(0, 7);
+
+        if (!matches.length) {
+          suggestionsEl.innerHTML = `<div class="suggestions-empty">No verbs found for "${query}"</div>`;
+          suggestionsEl.classList.remove("hidden");
+          return;
+        }
+
+        suggestionsEl.innerHTML = matches
+          .map(
+            (v) => `
+        <button class="suggestion-item" data-verb="${v.base}">
+          <span>${v.base}</span>
+          <span class="verb-type type--${v.type}">${v.type}</span>
+        </button>
+      `,
+          )
+          .join("");
+        suggestionsEl.classList.remove("hidden");
+
+        suggestionsEl.querySelectorAll(".suggestion-item").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const verb = verbs.find((v) => v.base === btn.dataset.verb);
+            if (verb) selectVerb(verb);
+          });
+        });
+      }
+
+      function selectVerb(verb) {
+        searchInput.value = verb.base;
+        suggestionsEl.classList.add("hidden");
+        searchClear.classList.remove("hidden");
+        renderVerb(verb);
+      }
+
+      function renderGrid(list) {
+        verbGrid.innerHTML = list
+          .map(
+            (v) => `
+        <button class="verb-thumb" data-verb="${v.base}">
+          <div class="verb-thumb__base">${v.base}</div>
+          <div class="verb-thumb__forms">${v.past} · ${v.pastParticiple}</div>
+        </button>
+      `,
+          )
+          .join("");
+        verbGrid.querySelectorAll(".verb-thumb").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const verb = verbs.find((v) => v.base === btn.dataset.verb);
+            if (verb) selectVerb(verb);
+          });
+        });
+      }
+
+      searchInput.addEventListener("input", () => {
+        const q = searchInput.value.trim();
+        searchClear.classList.toggle("hidden", !q);
+        showSuggestions(q);
+        if (!q) {
+          resultEl.classList.add("hidden");
+          browseEl.classList.remove("hidden");
+        }
+      });
+
+      searchClear.addEventListener("click", () => {
+        searchInput.value = "";
+        searchClear.classList.add("hidden");
+        suggestionsEl.classList.add("hidden");
+        resultEl.classList.add("hidden");
+        browseEl.classList.remove("hidden");
+        searchInput.focus();
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!e.target.closest(".search-wrap"))
+          suggestionsEl.classList.add("hidden");
+      });
+
+      document.querySelectorAll(".filter-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document
+            .querySelectorAll(".filter-btn")
+            .forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          activeFilter = btn.dataset.filter;
+          const filtered =
+            activeFilter === "all"
+              ? verbs
+              : verbs.filter((v) => v.type === activeFilter);
+          renderGrid(filtered);
+        });
+      });
+
+      fetch("../data/verbs.json")
+        .then((r) => r.json())
+        .then((data) => {
+          verbs = data;
+          renderGrid(verbs);
+          lucide.createIcons();
+        });
+    </script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
