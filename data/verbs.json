@@ -1303,5 +1303,572 @@
     "thirdPerson": "receives",
     "type": "regular",
     "meaning": "To get or accept"
+  },
+  {
+    "base": "accept",
+    "past": "accepted",
+    "pastParticiple": "accepted",
+    "presentParticiple": "accepting",
+    "thirdPerson": "accepts",
+    "type": "regular",
+    "meaning": "To receive or agree to"
+  },
+  {
+    "base": "achieve",
+    "past": "achieved",
+    "pastParticiple": "achieved",
+    "presentParticiple": "achieving",
+    "thirdPerson": "achieves",
+    "type": "regular",
+    "meaning": "To successfully accomplish something"
+  },
+  {
+    "base": "add",
+    "past": "added",
+    "pastParticiple": "added",
+    "presentParticiple": "adding",
+    "thirdPerson": "adds",
+    "type": "regular",
+    "meaning": "To join or combine"
+  },
+  {
+    "base": "admire",
+    "past": "admired",
+    "pastParticiple": "admired",
+    "presentParticiple": "admiring",
+    "thirdPerson": "admires",
+    "type": "regular",
+    "meaning": "To regard with respect or approval"
+  },
+  {
+    "base": "admit",
+    "past": "admitted",
+    "pastParticiple": "admitted",
+    "presentParticiple": "admitting",
+    "thirdPerson": "admits",
+    "type": "regular",
+    "meaning": "To confess or allow entry"
+  },
+  {
+    "base": "advise",
+    "past": "advised",
+    "pastParticiple": "advised",
+    "presentParticiple": "advising",
+    "thirdPerson": "advises",
+    "type": "regular",
+    "meaning": "To offer a recommendation"
+  },
+  {
+    "base": "afford",
+    "past": "afforded",
+    "pastParticiple": "afforded",
+    "presentParticiple": "affording",
+    "thirdPerson": "affords",
+    "type": "regular",
+    "meaning": "To have enough money or means"
+  },
+  {
+    "base": "agree",
+    "past": "agreed",
+    "pastParticiple": "agreed",
+    "presentParticiple": "agreeing",
+    "thirdPerson": "agrees",
+    "type": "regular",
+    "meaning": "To have the same opinion"
+  },
+  {
+    "base": "allow",
+    "past": "allowed",
+    "pastParticiple": "allowed",
+    "presentParticiple": "allowing",
+    "thirdPerson": "allows",
+    "type": "regular",
+    "meaning": "To permit or let"
+  },
+  {
+    "base": "announce",
+    "past": "announced",
+    "pastParticiple": "announced",
+    "presentParticiple": "announcing",
+    "thirdPerson": "announces",
+    "type": "regular",
+    "meaning": "To make a public statement"
+  },
+  {
+    "base": "appear",
+    "past": "appeared",
+    "pastParticiple": "appeared",
+    "presentParticiple": "appearing",
+    "thirdPerson": "appears",
+    "type": "regular",
+    "meaning": "To come into sight"
+  },
+  {
+    "base": "apply",
+    "past": "applied",
+    "pastParticiple": "applied",
+    "presentParticiple": "applying",
+    "thirdPerson": "applies",
+    "type": "regular",
+    "meaning": "To make a formal request or put to use"
+  },
+  {
+    "base": "argue",
+    "past": "argued",
+    "pastParticiple": "argued",
+    "presentParticiple": "arguing",
+    "thirdPerson": "argues",
+    "type": "regular",
+    "meaning": "To express disagreement"
+  },
+  {
+    "base": "arrange",
+    "past": "arranged",
+    "pastParticiple": "arranged",
+    "presentParticiple": "arranging",
+    "thirdPerson": "arranges",
+    "type": "regular",
+    "meaning": "To put in order or plan"
+  },
+  {
+    "base": "arrive",
+    "past": "arrived",
+    "pastParticiple": "arrived",
+    "presentParticiple": "arriving",
+    "thirdPerson": "arrives",
+    "type": "regular",
+    "meaning": "To reach a destination"
+  },
+  {
+    "base": "attach",
+    "past": "attached",
+    "pastParticiple": "attached",
+    "presentParticiple": "attaching",
+    "thirdPerson": "attaches",
+    "type": "regular",
+    "meaning": "To fasten or connect"
+  },
+  {
+    "base": "attack",
+    "past": "attacked",
+    "pastParticiple": "attacked",
+    "presentParticiple": "attacking",
+    "thirdPerson": "attacks",
+    "type": "regular",
+    "meaning": "To act against with force"
+  },
+  {
+    "base": "avoid",
+    "past": "avoided",
+    "pastParticiple": "avoided",
+    "presentParticiple": "avoiding",
+    "thirdPerson": "avoids",
+    "type": "regular",
+    "meaning": "To stay away from"
+  },
+  {
+    "base": "bake",
+    "past": "baked",
+    "pastParticiple": "baked",
+    "presentParticiple": "baking",
+    "thirdPerson": "bakes",
+    "type": "regular",
+    "meaning": "To cook in an oven"
+  },
+  {
+    "base": "behave",
+    "past": "behaved",
+    "pastParticiple": "behaved",
+    "presentParticiple": "behaving",
+    "thirdPerson": "behaves",
+    "type": "regular",
+    "meaning": "To act in a particular manner"
+  },
+  {
+    "base": "believe",
+    "past": "believed",
+    "pastParticiple": "believed",
+    "presentParticiple": "believing",
+    "thirdPerson": "believes",
+    "type": "regular",
+    "meaning": "To accept as true"
+  },
+  {
+    "base": "belong",
+    "past": "belonged",
+    "pastParticiple": "belonged",
+    "presentParticiple": "belonging",
+    "thirdPerson": "belongs",
+    "type": "regular",
+    "meaning": "To be owned or fit in"
+  },
+  {
+    "base": "blame",
+    "past": "blamed",
+    "pastParticiple": "blamed",
+    "presentParticiple": "blaming",
+    "thirdPerson": "blames",
+    "type": "regular",
+    "meaning": "To hold responsible"
+  },
+  {
+    "base": "bleed",
+    "past": "bled",
+    "pastParticiple": "bled",
+    "presentParticiple": "bleeding",
+    "thirdPerson": "bleeds",
+    "type": "irregular",
+    "meaning": "To lose blood"
+  },
+  {
+    "base": "bless",
+    "past": "blessed",
+    "pastParticiple": "blessed",
+    "presentParticiple": "blessing",
+    "thirdPerson": "blesses",
+    "type": "regular",
+    "meaning": "To consecrate or wish happiness"
+  },
+  {
+    "base": "borrow",
+    "past": "borrowed",
+    "pastParticiple": "borrowed",
+    "presentParticiple": "borrowing",
+    "thirdPerson": "borrows",
+    "type": "regular",
+    "meaning": "To take temporarily"
+  },
+  {
+    "base": "breathe",
+    "past": "breathed",
+    "pastParticiple": "breathed",
+    "presentParticiple": "breathing",
+    "thirdPerson": "breathes",
+    "type": "regular",
+    "meaning": "To inhale and exhale"
+  },
+  {
+    "base": "bury",
+    "past": "buried",
+    "pastParticiple": "buried",
+    "presentParticiple": "burying",
+    "thirdPerson": "buries",
+    "type": "regular",
+    "meaning": "To place in the ground"
+  },
+  {
+    "base": "calculate",
+    "past": "calculated",
+    "pastParticiple": "calculated",
+    "presentParticiple": "calculating",
+    "thirdPerson": "calculates",
+    "type": "regular",
+    "meaning": "To determine mathematically"
+  },
+  {
+    "base": "cancel",
+    "past": "canceled",
+    "pastParticiple": "canceled",
+    "presentParticiple": "canceling",
+    "thirdPerson": "cancels",
+    "type": "regular",
+    "meaning": "To call off or annul"
+  },
+  {
+    "base": "care",
+    "past": "cared",
+    "pastParticiple": "cared",
+    "presentParticiple": "caring",
+    "thirdPerson": "cares",
+    "type": "regular",
+    "meaning": "To be concerned or look after"
+  },
+  {
+    "base": "carry",
+    "past": "carried",
+    "pastParticiple": "carried",
+    "presentParticiple": "carrying",
+    "thirdPerson": "carries",
+    "type": "regular",
+    "meaning": "To hold and move"
+  },
+  {
+    "base": "cause",
+    "past": "caused",
+    "pastParticiple": "caused",
+    "presentParticiple": "causing",
+    "thirdPerson": "causes",
+    "type": "regular",
+    "meaning": "To make something happen"
+  },
+  {
+    "base": "celebrate",
+    "past": "celebrated",
+    "pastParticiple": "celebrated",
+    "presentParticiple": "celebrating",
+    "thirdPerson": "celebrates",
+    "type": "regular",
+    "meaning": "To mark a special occasion"
+  },
+  {
+    "base": "change",
+    "past": "changed",
+    "pastParticiple": "changed",
+    "presentParticiple": "changing",
+    "thirdPerson": "changes",
+    "type": "regular",
+    "meaning": "To make or become different"
+  },
+  {
+    "base": "charge",
+    "past": "charged",
+    "pastParticiple": "charged",
+    "presentParticiple": "charging",
+    "thirdPerson": "charges",
+    "type": "regular",
+    "meaning": "To demand payment or accuse"
+  },
+  {
+    "base": "cheat",
+    "past": "cheated",
+    "pastParticiple": "cheated",
+    "presentParticiple": "cheating",
+    "thirdPerson": "cheats",
+    "type": "regular",
+    "meaning": "To deceive or act dishonestly"
+  },
+  {
+    "base": "cheer",
+    "past": "cheered",
+    "pastParticiple": "cheered",
+    "presentParticiple": "cheering",
+    "thirdPerson": "cheers",
+    "type": "regular",
+    "meaning": "To shout with joy or encourage"
+  },
+  {
+    "base": "choose",
+    "past": "chose",
+    "pastParticiple": "chosen",
+    "presentParticiple": "choosing",
+    "thirdPerson": "chooses",
+    "type": "irregular",
+    "meaning": "To select from alternatives"
+  },
+  {
+    "base": "collect",
+    "past": "collected",
+    "pastParticiple": "collected",
+    "presentParticiple": "collecting",
+    "thirdPerson": "collects",
+    "type": "regular",
+    "meaning": "To gather together"
+  },
+  {
+    "base": "combine",
+    "past": "combined",
+    "pastParticiple": "combined",
+    "presentParticiple": "combining",
+    "thirdPerson": "combines",
+    "type": "regular",
+    "meaning": "To join together"
+  },
+  {
+    "base": "command",
+    "past": "commanded",
+    "pastParticiple": "commanded",
+    "presentParticiple": "commanding",
+    "thirdPerson": "commands",
+    "type": "regular",
+    "meaning": "To give an official order"
+  },
+  {
+    "base": "compare",
+    "past": "compared",
+    "pastParticiple": "compared",
+    "presentParticiple": "comparing",
+    "thirdPerson": "compares",
+    "type": "regular",
+    "meaning": "To examine similarities and differences"
+  },
+  {
+    "base": "compete",
+    "past": "competed",
+    "pastParticiple": "competed",
+    "presentParticiple": "competing",
+    "thirdPerson": "competes",
+    "type": "regular",
+    "meaning": "To strive for victory"
+  },
+  {
+    "base": "complain",
+    "past": "complained",
+    "pastParticiple": "complained",
+    "presentParticiple": "complaining",
+    "thirdPerson": "complains",
+    "type": "regular",
+    "meaning": "To express dissatisfaction"
+  },
+  {
+    "base": "complete",
+    "past": "completed",
+    "pastParticiple": "completed",
+    "presentParticiple": "completing",
+    "thirdPerson": "completes",
+    "type": "regular",
+    "meaning": "To finish or make whole"
+  },
+  {
+    "base": "concern",
+    "past": "concerned",
+    "pastParticiple": "concerned",
+    "presentParticiple": "concerning",
+    "thirdPerson": "concerns",
+    "type": "regular",
+    "meaning": "To relate to or worry"
+  },
+  {
+    "base": "confuse",
+    "past": "confused",
+    "pastParticiple": "confused",
+    "presentParticiple": "confusing",
+    "thirdPerson": "confuses",
+    "type": "regular",
+    "meaning": "To make unclear"
+  },
+  {
+    "base": "connect",
+    "past": "connected",
+    "pastParticiple": "connected",
+    "presentParticiple": "connecting",
+    "thirdPerson": "connects",
+    "type": "regular",
+    "meaning": "To join or link"
+  },
+  {
+    "base": "consider",
+    "past": "considered",
+    "pastParticiple": "considered",
+    "presentParticiple": "considering",
+    "thirdPerson": "considers",
+    "type": "regular",
+    "meaning": "To think about carefully"
+  },
+  {
+    "base": "contain",
+    "past": "contained",
+    "pastParticiple": "contained",
+    "presentParticiple": "containing",
+    "thirdPerson": "contains",
+    "type": "regular",
+    "meaning": "To hold or include"
+  },
+  {
+    "base": "continue",
+    "past": "continued",
+    "pastParticiple": "continued",
+    "presentParticiple": "continuing",
+    "thirdPerson": "continues",
+    "type": "regular",
+    "meaning": "To keep going"
+  },
+  {
+    "base": "control",
+    "past": "controlled",
+    "pastParticiple": "controlled",
+    "presentParticiple": "controlling",
+    "thirdPerson": "controls",
+    "type": "regular",
+    "meaning": "To have power or authority over"
+  },
+  {
+    "base": "cook",
+    "past": "cooked",
+    "pastParticiple": "cooked",
+    "presentParticiple": "cooking",
+    "thirdPerson": "cooks",
+    "type": "regular",
+    "meaning": "To prepare food using heat"
+  },
+  {
+    "base": "copy",
+    "past": "copied",
+    "pastParticiple": "copied",
+    "presentParticiple": "copying",
+    "thirdPerson": "copies",
+    "type": "regular",
+    "meaning": "To duplicate or imitate"
+  },
+  {
+    "base": "correct",
+    "past": "corrected",
+    "pastParticiple": "corrected",
+    "presentParticiple": "correcting",
+    "thirdPerson": "corrects",
+    "type": "regular",
+    "meaning": "To make right or fix"
+  },
+  {
+    "base": "count",
+    "past": "counted",
+    "pastParticiple": "counted",
+    "presentParticiple": "counting",
+    "thirdPerson": "counts",
+    "type": "regular",
+    "meaning": "To determine number"
+  },
+  {
+    "base": "cover",
+    "past": "covered",
+    "pastParticiple": "covered",
+    "presentParticiple": "covering",
+    "thirdPerson": "covers",
+    "type": "regular",
+    "meaning": "To place something over"
+  },
+  {
+    "base": "crash",
+    "past": "crashed",
+    "pastParticiple": "crashed",
+    "presentParticiple": "crashing",
+    "thirdPerson": "crashes",
+    "type": "regular",
+    "meaning": "To collide or fail"
+  },
+  {
+    "base": "crawl",
+    "past": "crawled",
+    "pastParticiple": "crawled",
+    "presentParticiple": "crawling",
+    "thirdPerson": "crawls",
+    "type": "regular",
+    "meaning": "To move on hands and knees"
+  },
+  {
+    "base": "create",
+    "past": "created",
+    "pastParticiple": "created",
+    "presentParticiple": "creating",
+    "thirdPerson": "creates",
+    "type": "regular",
+    "meaning": "To bring into existence"
+  },
+  {
+    "base": "cross",
+    "past": "crossed",
+    "pastParticiple": "crossed",
+    "presentParticiple": "crossing",
+    "thirdPerson": "crosses",
+    "type": "regular",
+    "meaning": "To go from one side to another"
+  },
+  {
+    "base": "cry",
+    "past": "cried",
+    "pastParticiple": "cried",
+    "presentParticiple": "crying",
+    "thirdPerson": "cries",
+    "type": "regular",
+    "meaning": "To shed tears"
   }
 ]
