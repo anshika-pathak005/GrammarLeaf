@@ -1870,5 +1870,1103 @@
     "thirdPerson": "cries",
     "type": "regular",
     "meaning": "To shed tears"
+  },
+  {
+    "base": "cure",
+    "past": "cured",
+    "pastParticiple": "cured",
+    "presentParticiple": "curing",
+    "thirdPerson": "cures",
+    "type": "regular",
+    "meaning": "To heal or relieve"
+  },
+  {
+    "base": "cycle",
+    "past": "cycled",
+    "pastParticiple": "cycled",
+    "presentParticiple": "cycling",
+    "thirdPerson": "cycles",
+    "type": "regular",
+    "meaning": "To ride a bicycle"
+  },
+  {
+    "base": "damage",
+    "past": "damaged",
+    "pastParticiple": "damaged",
+    "presentParticiple": "damaging",
+    "thirdPerson": "damages",
+    "type": "regular",
+    "meaning": "To cause harm or injury"
+  },
+  {
+    "base": "dance",
+    "past": "danced",
+    "pastParticiple": "danced",
+    "presentParticiple": "dancing",
+    "thirdPerson": "dances",
+    "type": "regular",
+    "meaning": "To move rhythmically to music"
+  },
+  {
+    "base": "dare",
+    "past": "dared",
+    "pastParticiple": "dared",
+    "presentParticiple": "daring",
+    "thirdPerson": "dares",
+    "type": "regular",
+    "meaning": "To have the courage to do"
+  },
+  {
+    "base": "deal",
+    "past": "dealt",
+    "pastParticiple": "dealt",
+    "presentParticiple": "dealing",
+    "thirdPerson": "deals",
+    "type": "irregular",
+    "meaning": "To distribute or handle"
+  },
+  {
+    "base": "decide",
+    "past": "decided",
+    "pastParticiple": "decided",
+    "presentParticiple": "deciding",
+    "thirdPerson": "decides",
+    "type": "regular",
+    "meaning": "To make a choice"
+  },
+  {
+    "base": "decorate",
+    "past": "decorated",
+    "pastParticiple": "decorated",
+    "presentParticiple": "decorating",
+    "thirdPerson": "decorates",
+    "type": "regular",
+    "meaning": "To add ornamental features"
+  },
+  {
+    "base": "deliver",
+    "past": "delivered",
+    "pastParticiple": "delivered",
+    "presentParticiple": "delivering",
+    "thirdPerson": "delivers",
+    "type": "regular",
+    "meaning": "To bring or give"
+  },
+  {
+    "base": "depend",
+    "past": "depend",
+    "pastParticiple": "depend",
+    "presentParticiple": "depending",
+    "thirdPerson": "depends",
+    "type": "regular",
+    "meaning": "To rely on or be determined by"
+  },
+  {
+    "base": "describe",
+    "past": "described",
+    "pastParticiple": "described",
+    "presentParticiple": "describing",
+    "thirdPerson": "describes",
+    "type": "regular",
+    "meaning": "To give an account of"
+  },
+  {
+    "base": "deserve",
+    "past": "deserved",
+    "pastParticiple": "deserved",
+    "presentParticiple": "deserving",
+    "thirdPerson": "deserves",
+    "type": "regular",
+    "meaning": "To be worthy of"
+  },
+  {
+    "base": "destroy",
+    "past": "destroyed",
+    "pastParticiple": "destroyed",
+    "presentParticiple": "destroying",
+    "thirdPerson": "destroys",
+    "type": "regular",
+    "meaning": "To ruin completely"
+  },
+  {
+    "base": "develop",
+    "past": "developed",
+    "pastParticiple": "developed",
+    "presentParticiple": "developing",
+    "thirdPerson": "develops",
+    "type": "regular",
+    "meaning": "To grow or advance"
+  },
+  {
+    "base": "die",
+    "past": "died",
+    "pastParticiple": "died",
+    "presentParticiple": "dying",
+    "thirdPerson": "dies",
+    "type": "regular",
+    "meaning": "To stop living"
+  },
+  {
+    "base": "disappear",
+    "past": "disappeared",
+    "pastParticiple": "disappeared",
+    "presentParticiple": "disappearing",
+    "thirdPerson": "disappears",
+    "type": "regular",
+    "meaning": "To cease to be visible"
+  },
+  {
+    "base": "discover",
+    "past": "discovered",
+    "pastParticiple": "discovered",
+    "presentParticiple": "discovering",
+    "thirdPerson": "discovers",
+    "type": "regular",
+    "meaning": "To find or become aware of"
+  },
+  {
+    "base": "discuss",
+    "past": "discussed",
+    "pastParticiple": "discussed",
+    "presentParticiple": "discussing",
+    "thirdPerson": "discusses",
+    "type": "regular",
+    "meaning": "To talk about"
+  },
+  {
+    "base": "divide",
+    "past": "divided",
+    "pastParticiple": "divided",
+    "presentParticiple": "dividing",
+    "thirdPerson": "divides",
+    "type": "regular",
+    "meaning": "To separate into parts"
+  },
+  {
+    "base": "double",
+    "past": "doubled",
+    "pastParticiple": "doubled",
+    "presentParticiple": "doubling",
+    "thirdPerson": "doubles",
+    "type": "regular",
+    "meaning": "To increase twofold"
+  },
+  {
+    "base": "drag",
+    "past": "dragged",
+    "pastParticiple": "dragged",
+    "presentParticiple": "dragging",
+    "thirdPerson": "drags",
+    "type": "regular",
+    "meaning": "To pull with effort"
+  },
+  {
+    "base": "dream",
+    "past": "dreamed/dreamt",
+    "pastParticiple": "dreamed/dreamt",
+    "presentParticiple": "dreaming",
+    "thirdPerson": "dreams",
+    "type": "irregular",
+    "meaning": "To experience thoughts during sleep"
+  },
+  {
+    "base": "dress",
+    "past": "dressed",
+    "pastParticiple": "dressed",
+    "presentParticiple": "dressing",
+    "thirdPerson": "dresses",
+    "type": "regular",
+    "meaning": "To put on clothes"
+  },
+  {
+    "base": "drift",
+    "past": "drifted",
+    "pastParticiple": "drifted",
+    "presentParticiple": "drifting",
+    "thirdPerson": "drifts",
+    "type": "regular",
+    "meaning": "To be carried by a current"
+  },
+  {
+    "base": "drop",
+    "past": "dropped",
+    "pastParticiple": "dropped",
+    "presentParticiple": "dropping",
+    "thirdPerson": "drops",
+    "type": "regular",
+    "meaning": "To let fall"
+  },
+  {
+    "base": "drown",
+    "past": "drowned",
+    "pastParticiple": "drowned",
+    "presentParticiple": "drowning",
+    "thirdPerson": "drowns",
+    "type": "regular",
+    "meaning": "To die from submersion in water"
+  },
+  {
+    "base": "earn",
+    "past": "earned",
+    "pastParticiple": "earned",
+    "presentParticiple": "earning",
+    "thirdPerson": "earns",
+    "type": "regular",
+    "meaning": "To gain through work"
+  },
+  {
+    "base": "educate",
+    "past": "educated",
+    "pastParticiple": "educated",
+    "presentParticiple": "educating",
+    "thirdPerson": "educates",
+    "type": "regular",
+    "meaning": "To teach or instruct"
+  },
+  {
+    "base": "encourage",
+    "past": "encouraged",
+    "pastParticiple": "encouraged",
+    "presentParticiple": "encouraging",
+    "thirdPerson": "encourages",
+    "type": "regular",
+    "meaning": "To give support or confidence"
+  },
+  {
+    "base": "end",
+    "past": "ended",
+    "pastParticiple": "ended",
+    "presentParticiple": "ending",
+    "thirdPerson": "ends",
+    "type": "regular",
+    "meaning": "To finish or bring to a close"
+  },
+  {
+    "base": "enjoy",
+    "past": "enjoyed",
+    "pastParticiple": "enjoyed",
+    "presentParticiple": "enjoying",
+    "thirdPerson": "enjoys",
+    "type": "regular",
+    "meaning": "To take pleasure in"
+  },
+  {
+    "base": "enter",
+    "past": "entered",
+    "pastParticiple": "entered",
+    "presentParticiple": "entering",
+    "thirdPerson": "enters",
+    "type": "regular",
+    "meaning": "To come or go into"
+  },
+  {
+    "base": "escape",
+    "past": "escaped",
+    "pastParticiple": "escaped",
+    "presentParticiple": "escaping",
+    "thirdPerson": "escapes",
+    "type": "regular",
+    "meaning": "To get away from"
+  },
+  {
+    "base": "examine",
+    "past": "examined",
+    "pastParticiple": "examined",
+    "presentParticiple": "examining",
+    "thirdPerson": "examines",
+    "type": "regular",
+    "meaning": "To inspect or analyze"
+  },
+  {
+    "base": "exchange",
+    "past": "exchanged",
+    "pastParticiple": "exchanged",
+    "presentParticiple": "exchanging",
+    "thirdPerson": "exchanges",
+    "type": "regular",
+    "meaning": "To give and receive mutually"
+  },
+  {
+    "base": "excite",
+    "past": "excited",
+    "pastParticiple": "excited",
+    "presentParticiple": "excited",
+    "thirdPerson": "excites",
+    "type": "regular",
+    "meaning": "To arouse enthusiasm"
+  },
+  {
+    "base": "exercise",
+    "past": "exercised",
+    "pastParticiple": "exercised",
+    "presentParticiple": "exercising",
+    "thirdPerson": "exercises",
+    "type": "regular",
+    "meaning": "To engage in physical activity"
+  },
+  {
+    "base": "exist",
+    "past": "existed",
+    "pastParticiple": "existed",
+    "presentParticiple": "existing",
+    "thirdPerson": "exists",
+    "type": "regular",
+    "meaning": "To have reality or being"
+  },
+  {
+    "base": "expand",
+    "past": "expanded",
+    "pastParticiple": "expanded",
+    "presentParticiple": "expanding",
+    "thirdPerson": "expands",
+    "type": "regular",
+    "meaning": "To increase in size"
+  },
+  {
+    "base": "expect",
+    "past": "expected",
+    "pastParticiple": "expected",
+    "presentParticiple": "expecting",
+    "thirdPerson": "expects",
+    "type": "regular",
+    "meaning": "To anticipate or regard as likely"
+  },
+  {
+    "base": "experience",
+    "past": "experienced",
+    "pastParticiple": "experienced",
+    "presentParticiple": "experiencing",
+    "thirdPerson": "experiences",
+    "type": "regular",
+    "meaning": "To undergo or feel"
+  },
+  {
+    "base": "explain",
+    "past": "explained",
+    "pastParticiple": "explained",
+    "presentParticiple": "explaining",
+    "thirdPerson": "explains",
+    "type": "regular",
+    "meaning": "To make something clear"
+  },
+  {
+    "base": "explore",
+    "past": "explored",
+    "pastParticiple": "explored",
+    "presentParticiple": "exploring",
+    "thirdPerson": "explores",
+    "type": "regular",
+    "meaning": "To travel and discover"
+  },
+  {
+    "base": "express",
+    "past": "expressed",
+    "pastParticiple": "expressed",
+    "presentParticiple": "expressing",
+    "thirdPerson": "expresses",
+    "type": "regular",
+    "meaning": "To convey feelings or thoughts"
+  },
+  {
+    "base": "face",
+    "past": "faced",
+    "pastParticiple": "faced",
+    "presentParticiple": "facing",
+    "thirdPerson": "faces",
+    "type": "regular",
+    "meaning": "To confront or be positioned towards"
+  },
+  {
+    "base": "fail",
+    "past": "failed",
+    "pastParticiple": "failed",
+    "presentParticiple": "failing",
+    "thirdPerson": "fails",
+    "type": "regular",
+    "meaning": "To be unsuccessful"
+  },
+  {
+    "base": "fear",
+    "past": "feared",
+    "pastParticiple": "feared",
+    "presentParticiple": "fearing",
+    "thirdPerson": "fears",
+    "type": "regular",
+    "meaning": "To be afraid of"
+  },
+  {
+    "base": "feed",
+    "past": "fed",
+    "pastParticiple": "fed",
+    "presentParticiple": "feeding",
+    "thirdPerson": "feeds",
+    "type": "irregular",
+    "meaning": "To give food to"
+  },
+  {
+    "base": "fetch",
+    "past": "fetched",
+    "pastParticiple": "fetched",
+    "presentParticiple": "fetching",
+    "thirdPerson": "fetches",
+    "type": "regular",
+    "meaning": "To go and get"
+  },
+  {
+    "base": "fight",
+    "past": "fought",
+    "pastParticiple": "fought",
+    "presentParticiple": "fighting",
+    "thirdPerson": "fights",
+    "type": "irregular",
+    "meaning": "To engage in combat"
+  },
+  {
+    "base": "fill",
+    "past": "filled",
+    "pastParticiple": "filled",
+    "presentParticiple": "filling",
+    "thirdPerson": "fills",
+    "type": "regular",
+    "meaning": "To make full"
+  },
+  {
+    "base": "follow",
+    "past": "followed",
+    "pastParticiple": "followed",
+    "presentParticiple": "following",
+    "thirdPerson": "follows",
+    "type": "regular",
+    "meaning": "To come after or obey"
+  },
+  {
+    "base": "force",
+    "past": "forced",
+    "pastParticiple": "forced",
+    "presentParticiple": "forcing",
+    "thirdPerson": "forces",
+    "type": "regular",
+    "meaning": "To make someone do something"
+  },
+  {
+    "base": "forgive",
+    "past": "forgave",
+    "pastParticiple": "forgiven",
+    "presentParticiple": "forgiving",
+    "thirdPerson": "forgives",
+    "type": "irregular",
+    "meaning": "To stop feeling anger towards"
+  },
+  {
+    "base": "form",
+    "past": "formed",
+    "pastParticiple": "formed",
+    "presentParticiple": "forming",
+    "thirdPerson": "forms",
+    "type": "regular",
+    "meaning": "To shape or create"
+  },
+  {
+    "base": "freeze",
+    "past": "froze",
+    "pastParticiple": "frozen",
+    "presentParticiple": "freezing",
+    "thirdPerson": "freezes",
+    "type": "irregular",
+    "meaning": "To turn to ice or harden"
+  },
+  {
+    "base": "gather",
+    "past": "gathered",
+    "pastParticiple": "gathered",
+    "presentParticiple": "gathering",
+    "thirdPerson": "gathers",
+    "type": "regular",
+    "meaning": "To collect or assemble"
+  },
+  {
+    "base": "greet",
+    "past": "greeted",
+    "pastParticiple": "greeted",
+    "presentParticiple": "greeting",
+    "thirdPerson": "greets",
+    "type": "regular",
+    "meaning": "To welcome or address"
+  },
+  {
+    "base": "grow",
+    "past": "grew",
+    "pastParticiple": "grown",
+    "presentParticiple": "growing",
+    "thirdPerson": "grows",
+    "type": "irregular",
+    "meaning": "To increase in size or develop"
+  },
+  {
+    "base": "guess",
+    "past": "guessed",
+    "pastParticiple": "guessed",
+    "presentParticiple": "guessing",
+    "thirdPerson": "guesses",
+    "type": "regular",
+    "meaning": "To estimate or suppose"
+  },
+  {
+    "base": "handle",
+    "past": "handled",
+    "pastParticiple": "handled",
+    "presentParticiple": "handling",
+    "thirdPerson": "handles",
+    "type": "regular",
+    "meaning": "To manage or deal with"
+  },
+  {
+    "base": "hang",
+    "past": "hung",
+    "pastParticiple": "hung",
+    "presentParticiple": "hanging",
+    "thirdPerson": "hangs",
+    "type": "irregular",
+    "meaning": "To suspend from above"
+  },
+  {
+    "base": "hate",
+    "past": "hated",
+    "pastParticiple": "hated",
+    "presentParticiple": "hating",
+    "thirdPerson": "hates",
+    "type": "regular",
+    "meaning": "To strongly dislike"
+  },
+  {
+    "base": "heat",
+    "past": "heated",
+    "pastParticiple": "heated",
+    "presentParticiple": "heating",
+    "thirdPerson": "heats",
+    "type": "regular",
+    "meaning": "To make warm or hot"
+  },
+  {
+    "base": "hide",
+    "past": "hid",
+    "pastParticiple": "hidden",
+    "presentParticiple": "hiding",
+    "thirdPerson": "hides",
+    "type": "irregular",
+    "meaning": "To put or keep out of sight"
+  },
+  {
+    "base": "hire",
+    "past": "hired",
+    "pastParticiple": "hired",
+    "presentParticiple": "hiring",
+    "thirdPerson": "hires",
+    "type": "regular",
+    "meaning": "To employ or rent"
+  },
+  {
+    "base": "hit",
+    "past": "hit",
+    "pastParticiple": "hit",
+    "presentParticiple": "hitting",
+    "thirdPerson": "hits",
+    "type": "irregular",
+    "meaning": "To strike forcefully"
+  },
+  {
+    "base": "hold",
+    "past": "held",
+    "pastParticiple": "held",
+    "presentParticiple": "holding",
+    "thirdPerson": "holds",
+    "type": "irregular",
+    "meaning": "To grasp or carry"
+  },
+  {
+    "base": "hop",
+    "past": "hopped",
+    "pastParticiple": "hopped",
+    "presentParticiple": "hopping",
+    "thirdPerson": "hops",
+    "type": "regular",
+    "meaning": "To jump lightly"
+  },
+  {
+    "base": "hope",
+    "past": "hoped",
+    "pastParticiple": "hoped",
+    "presentParticiple": "hoping",
+    "thirdPerson": "hopes",
+    "type": "regular",
+    "meaning": "To desire and expect"
+  },
+  {
+    "base": "hunt",
+    "past": "hunted",
+    "pastParticiple": "hunted",
+    "presentParticiple": "hunting",
+    "thirdPerson": "hunts",
+    "type": "regular",
+    "meaning": "To pursue or search for"
+  },
+  {
+    "base": "hurry",
+    "past": "hurried",
+    "pastParticiple": "hurried",
+    "presentParticiple": "hurrying",
+    "thirdPerson": "hurries",
+    "type": "regular",
+    "meaning": "To move or act quickly"
+  },
+  {
+    "base": "identify",
+    "past": "identified",
+    "pastParticiple": "identified",
+    "presentParticiple": "identifying",
+    "thirdPerson": "identifies",
+    "type": "regular",
+    "meaning": "To recognize or establish"
+  },
+  {
+    "base": "ignore",
+    "past": "ignored",
+    "pastParticiple": "ignored",
+    "presentParticiple": "ignoring",
+    "thirdPerson": "ignores",
+    "type": "regular",
+    "meaning": "To pay no attention to"
+  },
+  {
+    "base": "imagine",
+    "past": "imagined",
+    "pastParticiple": "imagined",
+    "presentParticiple": "imagining",
+    "thirdPerson": "imagines",
+    "type": "regular",
+    "meaning": "To form a mental image"
+  },
+  {
+    "base": "improve",
+    "past": "improved",
+    "pastParticiple": "improved",
+    "presentParticiple": "improving",
+    "thirdPerson": "improves",
+    "type": "regular",
+    "meaning": "To make better"
+  },
+  {
+    "base": "include",
+    "past": "included",
+    "pastParticiple": "included",
+    "presentParticiple": "including",
+    "thirdPerson": "includes",
+    "type": "regular",
+    "meaning": "To contain or comprise"
+  },
+  {
+    "base": "increase",
+    "past": "increased",
+    "pastParticiple": "increased",
+    "presentParticiple": "increasing",
+    "thirdPerson": "increases",
+    "type": "regular",
+    "meaning": "To make larger in size or amount"
+  },
+  {
+    "base": "influence",
+    "past": "influenced",
+    "pastParticiple": "influenced",
+    "presentParticiple": "influencing",
+    "thirdPerson": "influences",
+    "type": "regular",
+    "meaning": "To affect or sway"
+  },
+  {
+    "base": "inform",
+    "past": "informed",
+    "pastParticiple": "informed",
+    "presentParticiple": "informing",
+    "thirdPerson": "informs",
+    "type": "regular",
+    "meaning": "To give information"
+  },
+  {
+    "base": "injure",
+    "past": "injured",
+    "pastParticiple": "injured",
+    "presentParticiple": "injuring",
+    "thirdPerson": "injures",
+    "type": "regular",
+    "meaning": "To cause physical harm"
+  },
+  {
+    "base": "insist",
+    "past": "insisted",
+    "pastParticiple": "insisted",
+    "presentParticiple": "insisting",
+    "thirdPerson": "insists",
+    "type": "regular",
+    "meaning": "To demand firmly"
+  },
+  {
+    "base": "inspire",
+    "past": "inspired",
+    "pastParticiple": "inspired",
+    "presentParticiple": "inspiring",
+    "thirdPerson": "inspires",
+    "type": "regular",
+    "meaning": "To fill with motivation"
+  },
+  {
+    "base": "introduce",
+    "past": "introduced",
+    "pastParticiple": "introduced",
+    "presentParticiple": "introducing",
+    "thirdPerson": "introduces",
+    "type": "regular",
+    "meaning": "To make known or present"
+  },
+  {
+    "base": "invite",
+    "past": "invited",
+    "pastParticiple": "invited",
+    "presentParticiple": "inviting",
+    "thirdPerson": "invites",
+    "type": "regular",
+    "meaning": "To request someone's presence"
+  },
+  {
+    "base": "join",
+    "past": "joined",
+    "pastParticiple": "joined",
+    "presentParticiple": "joining",
+    "thirdPerson": "joins",
+    "type": "regular",
+    "meaning": "To become a member or connect"
+  },
+  {
+    "base": "judge",
+    "past": "judged",
+    "pastParticiple": "judged",
+    "presentParticiple": "judging",
+    "thirdPerson": "judges",
+    "type": "regular",
+    "meaning": "To form an opinion"
+  },
+  {
+    "base": "jump",
+    "past": "jumped",
+    "pastParticiple": "jumped",
+    "presentParticiple": "jumping",
+    "thirdPerson": "jumps",
+    "type": "regular",
+    "meaning": "To propel upward"
+  },
+  {
+    "base": "kick",
+    "past": "kicked",
+    "pastParticiple": "kicked",
+    "presentParticiple": "kicking",
+    "thirdPerson": "kicks",
+    "type": "regular",
+    "meaning": "To strike with the foot"
+  },
+  {
+    "base": "kiss",
+    "past": "kissed",
+    "pastParticiple": "kissed",
+    "presentParticiple": "kissing",
+    "thirdPerson": "kisses",
+    "type": "regular",
+    "meaning": "To touch with the lips"
+  },
+  {
+    "base": "knock",
+    "past": "knocked",
+    "pastParticiple": "knocked",
+    "presentParticiple": "knocking",
+    "thirdPerson": "knocks",
+    "type": "regular",
+    "meaning": "To strike a surface"
+  },
+  {
+    "base": "laugh",
+    "past": "laughed",
+    "pastParticiple": "laughed",
+    "presentParticiple": "laughing",
+    "thirdPerson": "laughs",
+    "type": "regular",
+    "meaning": "To express amusement"
+  },
+  {
+    "base": "lead",
+    "past": "led",
+    "pastParticiple": "led",
+    "presentParticiple": "leading",
+    "thirdPerson": "leads",
+    "type": "irregular",
+    "meaning": "To guide or direct"
+  },
+  {
+    "base": "lean",
+    "past": "leaned/leant",
+    "pastParticiple": "leaned/leant",
+    "presentParticiple": "leaning",
+    "thirdPerson": "leans",
+    "type": "irregular",
+    "meaning": "To incline or rest against"
+  },
+  {
+    "base": "lend",
+    "past": "lent",
+    "pastParticiple": "lent",
+    "presentParticiple": "lending",
+    "thirdPerson": "lends",
+    "type": "irregular",
+    "meaning": "To give temporarily"
+  },
+  {
+    "base": "lie",
+    "past": "lay",
+    "pastParticiple": "lain",
+    "presentParticiple": "lying",
+    "thirdPerson": "lies",
+    "type": "irregular",
+    "meaning": "To recline or be in a horizontal position"
+  },
+  {
+    "base": "lift",
+    "past": "lifted",
+    "pastParticiple": "lifted",
+    "presentParticiple": "lifting",
+    "thirdPerson": "lifts",
+    "type": "regular",
+    "meaning": "To raise up"
+  },
+  {
+    "base": "link",
+    "past": "linked",
+    "pastParticiple": "linked",
+    "presentParticiple": "linking",
+    "thirdPerson": "links",
+    "type": "regular",
+    "meaning": "To connect or join"
+  },
+  {
+    "base": "lock",
+    "past": "locked",
+    "pastParticiple": "locked",
+    "presentParticiple": "locking",
+    "thirdPerson": "locks",
+    "type": "regular",
+    "meaning": "To fasten securely"
+  },
+  {
+    "base": "love",
+    "past": "loved",
+    "pastParticiple": "loved",
+    "presentParticiple": "loving",
+    "thirdPerson": "loves",
+    "type": "regular",
+    "meaning": "To have strong affection"
+  },
+  {
+    "base": "manage",
+    "past": "managed",
+    "pastParticiple": "managed",
+    "presentParticiple": "managing",
+    "thirdPerson": "manages",
+    "type": "regular",
+    "meaning": "To handle successfully"
+  },
+  {
+    "base": "marry",
+    "past": "married",
+    "pastParticiple": "married",
+    "presentParticiple": "marrying",
+    "thirdPerson": "marries",
+    "type": "regular",
+    "meaning": "To join in wedlock"
+  },
+  {
+    "base": "measure",
+    "past": "measured",
+    "pastParticiple": "measured",
+    "presentParticiple": "measuring",
+    "thirdPerson": "measures",
+    "type": "regular",
+    "meaning": "To determine dimensions"
+  },
+  {
+    "base": "melt",
+    "past": "melted",
+    "pastParticiple": "melted/molten",
+    "presentParticiple": "melting",
+    "thirdPerson": "melts",
+    "type": "irregular",
+    "meaning": "To become liquid"
+  },
+  {
+    "base": "mention",
+    "past": "mentioned",
+    "pastParticiple": "mentioned",
+    "presentParticiple": "mentioning",
+    "thirdPerson": "mentions",
+    "type": "regular",
+    "meaning": "To refer to briefly"
+  },
+  {
+    "base": "miss",
+    "past": "missed",
+    "pastParticiple": "missed",
+    "presentParticiple": "missing",
+    "thirdPerson": "misses",
+    "type": "regular",
+    "meaning": "To fail to hit or be absent"
+  },
+  {
+    "base": "mix",
+    "past": "mixed",
+    "pastParticiple": "mixed",
+    "presentParticiple": "mixing",
+    "thirdPerson": "mixes",
+    "type": "regular",
+    "meaning": "To combine together"
+  },
+  {
+    "base": "move",
+    "past": "moved",
+    "pastParticiple": "moved",
+    "presentParticiple": "moving",
+    "thirdPerson": "moves",
+    "type": "regular",
+    "meaning": "To change position"
+  },
+  {
+    "base": "murder",
+    "past": "murdered",
+    "pastParticiple": "murdered",
+    "presentParticiple": "murdering",
+    "thirdPerson": "murders",
+    "type": "regular",
+    "meaning": "To kill unlawfully"
+  },
+  {
+    "base": "name",
+    "past": "named",
+    "pastParticiple": "named",
+    "presentParticiple": "naming",
+    "thirdPerson": "names",
+    "type": "regular",
+    "meaning": "To give a name to"
+  },
+  {
+    "base": "need",
+    "past": "needed",
+    "pastParticiple": "needed",
+    "presentParticiple": "needing",
+    "thirdPerson": "needs",
+    "type": "regular",
+    "meaning": "To require"
+  },
+  {
+    "base": "notice",
+    "past": "noticed",
+    "pastParticiple": "noticed",
+    "presentParticiple": "noticing",
+    "thirdPerson": "notices",
+    "type": "regular",
+    "meaning": "To observe or become aware"
+  },
+  {
+    "base": "obey",
+    "past": "obeyed",
+    "pastParticiple": "obeyed",
+    "presentParticiple": "obeying",
+    "thirdPerson": "obeys",
+    "type": "regular",
+    "meaning": "To follow commands"
+  },
+  {
+    "base": "observe",
+    "past": "observed",
+    "pastParticiple": "observed",
+    "presentParticiple": "observing",
+    "thirdPerson": "observes",
+    "type": "regular",
+    "meaning": "To watch carefully"
+  },
+  {
+    "base": "obtain",
+    "past": "obtained",
+    "pastParticiple": "obtained",
+    "presentParticiple": "obtaining",
+    "thirdPerson": "obtains",
+    "type": "regular",
+    "meaning": "To get or acquire"
+  },
+  {
+    "base": "occur",
+    "past": "occurred",
+    "pastParticiple": "occurred",
+    "presentParticiple": "occurring",
+    "thirdPerson": "occurs",
+    "type": "regular",
+    "meaning": "To happen or take place"
+  },
+  {
+    "base": "offer",
+    "past": "offered",
+    "pastParticiple": "offered",
+    "presentParticiple": "offering",
+    "thirdPerson": "offers",
+    "type": "regular",
+    "meaning": "To present for acceptance"
+  },
+  {
+    "base": "order",
+    "past": "ordered",
+    "pastParticiple": "ordered",
+    "presentParticiple": "ordering",
+    "thirdPerson": "orders",
+    "type": "regular",
+    "meaning": "To command or arrange"
+  },
+  {
+    "base": "own",
+    "past": "owned",
+    "pastParticiple": "owned",
+    "presentParticiple": "owning",
+    "thirdPerson": "owns",
+    "type": "regular",
+    "meaning": "To possess or have"
+  },
+  {
+    "base": "pack",
+    "past": "packed",
+    "pastParticiple": "packed",
+    "presentParticiple": "packing",
+    "thirdPerson": "packs",
+    "type": "regular",
+    "meaning": "To put into a container"
+  },
+  {
+    "base": "paint",
+    "past": "painted",
+    "pastParticiple": "painted",
+    "presentParticiple": "painting",
+    "thirdPerson": "paints",
+    "type": "regular",
+    "meaning": "To apply color to"
+  },
+  {
+    "base": "park",
+    "past": "parked",
+    "pastParticiple": "parked",
+    "presentParticiple": "parking",
+    "thirdPerson": "parks",
+    "type": "regular",
+    "meaning": "To leave a vehicle temporarily"
   }
 ]
