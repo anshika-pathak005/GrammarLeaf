@@ -2986,5 +2986,167 @@
     "thirdPerson": "performs",
     "type": "regular",
     "meaning": "To carry out or present"
+  },
+  {
+    "base": "permit",
+    "past": "permitted",
+    "pastParticiple": "permitted",
+    "presentParticiple": "permitting",
+    "thirdPerson": "permits",
+    "type": "regular",
+    "meaning": "To allow or authorize"
+  },
+  {
+    "base": "pick",
+    "past": "picked",
+    "pastParticiple": "picked",
+    "presentParticiple": "picking",
+    "thirdPerson": "picks",
+    "type": "regular",
+    "meaning": "To choose or select"
+  },
+  {
+    "base": "pin",
+    "past": "pinned",
+    "pastParticiple": "pinned",
+    "presentParticiple": "pinning",
+    "thirdPerson": "pins",
+    "type": "regular",
+    "meaning": "To attach with a pin"
+  },
+  {
+    "base": "plan",
+    "past": "planned",
+    "pastParticiple": "planned",
+    "presentParticiple": "planning",
+    "thirdPerson": "plans",
+    "type": "regular",
+    "meaning": "To arrange in advance"
+  },
+  {
+    "base": "point",
+    "past": "pointed",
+    "pastParticiple": "pointed",
+    "presentParticiple": "pointing",
+    "thirdPerson": "points",
+    "type": "regular",
+    "meaning": "To indicate or direct"
+  },
+  {
+    "base": "pour",
+    "past": "poured",
+    "pastParticiple": "poured",
+    "presentParticiple": "pouring",
+    "thirdPerson": "pours",
+    "type": "regular",
+    "meaning": "To flow or cause to flow"
+  },
+  {
+    "base": "practice",
+    "past": "practiced",
+    "pastParticiple": "practiced",
+    "presentParticiple": "practicing",
+    "thirdPerson": "practices",
+    "type": "regular",
+    "meaning": "To perform repeatedly"
+  },
+  {
+    "base": "prefer",
+    "past": "preferred",
+    "pastParticiple": "preferred",
+    "presentParticiple": "preferring",
+    "thirdPerson": "prefers",
+    "type": "regular",
+    "meaning": "To like better"
+  },
+  {
+    "base": "prepare",
+    "past": "prepared",
+    "pastParticiple": "prepared",
+    "presentParticiple": "preparing",
+    "thirdPerson": "prepares",
+    "type": "regular",
+    "meaning": "To make ready"
+  },
+  {
+    "base": "present",
+    "past": "presented",
+    "pastParticiple": "presented",
+    "presentParticiple": "presenting",
+    "thirdPerson": "presents",
+    "type": "regular",
+    "meaning": "To show or give"
+  },
+  {
+    "base": "prevent",
+    "past": "prevented",
+    "pastParticiple": "prevented",
+    "presentParticiple": "preventing",
+    "thirdPerson": "prevents",
+    "type": "regular",
+    "meaning": "To stop from happening"
+  },
+  {
+    "base": "print",
+    "past": "printed",
+    "pastParticiple": "printed",
+    "presentParticiple": "printing",
+    "thirdPerson": "prints",
+    "type": "regular",
+    "meaning": "To produce writing or images"
+  },
+  {
+    "base": "produce",
+    "past": "produced",
+    "pastParticiple": "produced",
+    "presentParticiple": "producing",
+    "thirdPerson": "produces",
+    "type": "regular",
+    "meaning": "To create or manufacture"
+  },
+  {
+    "base": "promise",
+    "past": "promised",
+    "pastParticiple": "promised",
+    "presentParticiple": "promising",
+    "thirdPerson": "promises",
+    "type": "regular",
+    "meaning": "To make a commitment"
+  },
+  {
+    "base": "protect",
+    "past": "protected",
+    "pastParticiple": "protected",
+    "presentParticiple": "protecting",
+    "thirdPerson": "protects",
+    "type": "regular",
+    "meaning": "To keep safe"
+  },
+  {
+    "base": "prove",
+    "past": "proved",
+    "pastParticiple": "proven",
+    "presentParticiple": "proving",
+    "thirdPerson": "proves",
+    "type": "irregular",
+    "meaning": "To demonstrate truth"
+  },
+  {
+    "base": "pull",
+    "past": "pulled",
+    "pastParticiple": "pulled",
+    "presentParticiple": "pulling",
+    "thirdPerson": "pulls",
+    "type": "regular",
+    "meaning": "To draw toward"
+  },
+  {
+    "base": "punish",
+    "past": "punished",
+    "pastParticiple": "punished",
+    "presentParticiple": "punishing",
+    "thirdPerson": "punishes",
+    "type": "regular",
+    "meaning": "To impose a penalty"
   }
 ]
