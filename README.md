@@ -1,54 +1,185 @@
 # GrammarLeaf
 
-English Grammar website for junior students - plain HTML, CSS, and JavaScript. No build step, no dependencies, no npm.
+A simple and student-friendly English Grammar learning website built with **HTML, CSS, and JavaScript**.
 
-## How to open
+GrammarLeaf is designed to help students understand and revise grammar concepts through clear explanations, sentence structures, helping verbs, uses, and examples. The content is organized in a simple and visual way to make learning easier and faster.
 
-Just open `index.html` in any browser. Done.
+---
 
-> Note: Because the pages fetch JSON files, you may need a local server if the browser blocks file:// fetches.
-> Run one with: `npx serve .` or use the Live Server extension in VS Code.
+## Features
 
-## Deploy
+- Complete coverage of all 12 English Tenses
+- Recognition / Identification points for quick revision
+- Helping Verbs and Uses of each tense
+- Sentence Structures:
+  - Positive
+  - Negative
+  - Yes/No Interrogative
+  - WH Interrogative
+- Multiple examples for every tense
+- Previous / Next tense navigation
+- Verb Forms Dictionary (V1, V2, V3, V4, V5)
+- Fast verb search
+- Responsive design for mobile and desktop
+- Data-driven content using JSON
 
-Drop the entire folder on **Vercel**, **Netlify**, or **GitHub Pages** - it works as a static site with zero configuration.
+---
 
-## File structure
+## Tech Stack
 
-```
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- JSON
+- Lucide Icons
+
+No frameworks, build tools, or external dependencies are required.
+
+---
+
+## Project Structure
+
+```text
 grammarleaf/
-├── index.html              ← Homepage
-├── pages/
-│   ├── tenses.html         ← All 12 tenses tree
-│   ├── tense-detail.html   ← Individual tense (reads ?id= from URL)
-│   ├── verbs.html          ← Verb search + browse
-│   └── quiz.html           ← Coming soon placeholder
+│
+├── index.html
+├── README.md
+│
 ├── css/
-│   ├── style.css           ← Global styles, variables, components
-│   ├── tenses.css          ← Tenses-specific styles
-│   └── verbs.css           ← Verbs-specific styles
+│   ├── home.css
+│   ├── style.css
+│   ├── tense-detail.css
+│   ├── tenses.css
+│   └── verbs.css
+│
+├── data/
+│   ├── tenses.json
+│   └── verbs.json
+│
 ├── js/
-│   └── nav.js              ← Active nav link highlight
-└── data/
-    ├── tenses.json         ← All 12 tenses data
-    └── verbs.json          ← 35 verbs with all 5 forms
+│   ├── home.js
+│   ├── nav.js
+│   ├── tense-detail.js
+│   ├── tenses.js
+│   └── verbs.js
+│
+└── pages/
+    ├── quiz.html
+    ├── tense-detail.html
+    ├── tenses.html
+    └── verbs.html
 ```
 
-## Adding content
+---
 
-**New verb:** Add an entry to `data/verbs.json` following the existing structure.
+## Running Locally
 
-**New tense:** Add an entry to `data/tenses.json` with the correct `group` value (`present`, `past`, or `future`).
+### Option 1: Open Directly
 
-No code changes needed - all pages are data-driven.
+Open `index.html` in your browser.
 
-## Color palette
+### Option 2: Run a Local Server (Recommended)
 
-| Token     | Hex                            |
-| --------- | ------------------------------ |
-| `--c-950` | `#051F20` - Background         |
-| `--c-900` | `#0B2B26` - Card background    |
-| `--c-800` | `#163832` - Borders, subtle bg |
-| `--c-700` | `#235347` - Muted borders      |
-| `--c-400` | `#8EB69B` - Accent, icons      |
-| `--c-100` | `#D4EED7` - Primary text       |
+Since some pages load JSON data using `fetch()`, certain browsers may block requests when opened through the `file://` protocol.
+
+Run a local server:
+
+```bash
+npx serve .
+```
+
+Or use the **Live Server** extension in VS Code.
+
+---
+
+## Managing Content
+
+### Adding a New Verb
+
+Edit:
+
+```text
+data/verbs.json
+```
+
+Example:
+
+```json
+{
+  "base": "write",
+  "past": "wrote",
+  "pastParticiple": "written",
+  "presentParticiple": "writing",
+  "thirdPerson": "writes"
+}
+```
+
+No code changes are required.
+
+---
+
+### Updating Tense Content
+
+Edit:
+
+```text
+data/tenses.json
+```
+
+Each tense contains:
+
+- Identification points
+- Helping verbs
+- Uses
+- Sentence structures
+- Examples
+
+The detail pages are generated automatically from the JSON data.
+
+---
+
+## Deployment
+
+GrammarLeaf is a fully static website and can be deployed directly on:
+
+- GitHub Pages
+- Vercel
+- Netlify
+- Any static hosting service
+
+No additional configuration is required.
+
+---
+
+## Future Scope
+
+GrammarLeaf aims to become a complete English Grammar revision platform for students.
+
+Planned additions include:
+
+- Practice Quizzes
+- Direct & Indirect Speech
+- Active & Passive Voice
+- Modals
+- Articles
+- Prepositions
+- Conjunctions
+- Subject-Verb Agreement
+- Conditional Sentences
+- Question Tags
+- Grammar Notes and Quick Revision Tricks
+- Search across all grammar topics
+- Progress Tracking
+- Dark / Light Theme
+
+---
+
+## Purpose
+
+GrammarLeaf is built for students who find traditional grammar books difficult, overwhelming, or hard to follow. The goal is to explain grammar concepts in a simple, structured, and revision-friendly way using clear explanations, easy-to-understand sentence patterns, and practical examples, so that learning grammar feels less confusing and more approachable.
+
+---
+
+## License
+
+This project is intended for educational and learning purposes.
