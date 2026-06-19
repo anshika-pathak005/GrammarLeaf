@@ -1,37 +1,1307 @@
 [
-  { "base": "go",      "past": "went",    "pastParticiple": "gone",    "presentParticiple": "going",    "thirdPerson": "goes",    "type": "irregular", "meaning": "To move from one place to another" },
-  { "base": "come",    "past": "came",    "pastParticiple": "come",    "presentParticiple": "coming",   "thirdPerson": "comes",   "type": "irregular", "meaning": "To move toward the speaker or a place" },
-  { "base": "eat",     "past": "ate",     "pastParticiple": "eaten",   "presentParticiple": "eating",   "thirdPerson": "eats",    "type": "irregular", "meaning": "To put food in the mouth and swallow it" },
-  { "base": "write",   "past": "wrote",   "pastParticiple": "written", "presentParticiple": "writing",  "thirdPerson": "writes",  "type": "irregular", "meaning": "To produce text on a surface" },
-  { "base": "read",    "past": "read",    "pastParticiple": "read",    "presentParticiple": "reading",  "thirdPerson": "reads",   "type": "irregular", "meaning": "To look at and understand written words" },
-  { "base": "run",     "past": "ran",     "pastParticiple": "run",     "presentParticiple": "running",  "thirdPerson": "runs",    "type": "irregular", "meaning": "To move fast using your legs" },
-  { "base": "see",     "past": "saw",     "pastParticiple": "seen",    "presentParticiple": "seeing",   "thirdPerson": "sees",    "type": "irregular", "meaning": "To perceive with the eyes" },
-  { "base": "take",    "past": "took",    "pastParticiple": "taken",   "presentParticiple": "taking",   "thirdPerson": "takes",   "type": "irregular", "meaning": "To pick up or carry something" },
-  { "base": "give",    "past": "gave",    "pastParticiple": "given",   "presentParticiple": "giving",   "thirdPerson": "gives",   "type": "irregular", "meaning": "To hand something to someone" },
-  { "base": "make",    "past": "made",    "pastParticiple": "made",    "presentParticiple": "making",   "thirdPerson": "makes",   "type": "irregular", "meaning": "To create or produce something" },
-  { "base": "know",    "past": "knew",    "pastParticiple": "known",   "presentParticiple": "knowing",  "thirdPerson": "knows",   "type": "irregular", "meaning": "To have information in your mind" },
-  { "base": "think",   "past": "thought", "pastParticiple": "thought", "presentParticiple": "thinking", "thirdPerson": "thinks",  "type": "irregular", "meaning": "To use your mind to consider something" },
-  { "base": "speak",   "past": "spoke",   "pastParticiple": "spoken",  "presentParticiple": "speaking", "thirdPerson": "speaks",  "type": "irregular", "meaning": "To say words aloud" },
-  { "base": "find",    "past": "found",   "pastParticiple": "found",   "presentParticiple": "finding",  "thirdPerson": "finds",   "type": "irregular", "meaning": "To discover or locate something" },
-  { "base": "buy",     "past": "bought",  "pastParticiple": "bought",  "presentParticiple": "buying",   "thirdPerson": "buys",    "type": "irregular", "meaning": "To pay money to get something" },
-  { "base": "sit",     "past": "sat",     "pastParticiple": "sat",     "presentParticiple": "sitting",  "thirdPerson": "sits",    "type": "irregular", "meaning": "To rest on a seat" },
-  { "base": "stand",   "past": "stood",   "pastParticiple": "stood",   "presentParticiple": "standing", "thirdPerson": "stands",  "type": "irregular", "meaning": "To be upright on your feet" },
-  { "base": "break",   "past": "broke",   "pastParticiple": "broken",  "presentParticiple": "breaking", "thirdPerson": "breaks",  "type": "irregular", "meaning": "To separate into pieces" },
-  { "base": "bring",   "past": "brought", "pastParticiple": "brought", "presentParticiple": "bringing", "thirdPerson": "brings",  "type": "irregular", "meaning": "To carry something to this place" },
-  { "base": "put",     "past": "put",     "pastParticiple": "put",     "presentParticiple": "putting",  "thirdPerson": "puts",    "type": "irregular", "meaning": "To place something in a position" },
-  { "base": "play",    "past": "played",  "pastParticiple": "played",  "presentParticiple": "playing",  "thirdPerson": "plays",   "type": "regular",   "meaning": "To engage in a game or sport" },
-  { "base": "walk",    "past": "walked",  "pastParticiple": "walked",  "presentParticiple": "walking",  "thirdPerson": "walks",   "type": "regular",   "meaning": "To move on foot at a normal speed" },
-  { "base": "talk",    "past": "talked",  "pastParticiple": "talked",  "presentParticiple": "talking",  "thirdPerson": "talks",   "type": "regular",   "meaning": "To speak to someone" },
-  { "base": "work",    "past": "worked",  "pastParticiple": "worked",  "presentParticiple": "working",  "thirdPerson": "works",   "type": "regular",   "meaning": "To do a job or task" },
-  { "base": "look",    "past": "looked",  "pastParticiple": "looked",  "presentParticiple": "looking",  "thirdPerson": "looks",   "type": "regular",   "meaning": "To direct your eyes at something" },
-  { "base": "watch",   "past": "watched", "pastParticiple": "watched", "presentParticiple": "watching", "thirdPerson": "watches", "type": "regular",   "meaning": "To look at something for a period of time" },
-  { "base": "listen",  "past": "listened","pastParticiple": "listened","presentParticiple": "listening","thirdPerson": "listens", "type": "regular",   "meaning": "To pay attention to sounds" },
-  { "base": "help",    "past": "helped",  "pastParticiple": "helped",  "presentParticiple": "helping",  "thirdPerson": "helps",   "type": "regular",   "meaning": "To make it easier for someone to do something" },
-  { "base": "ask",     "past": "asked",   "pastParticiple": "asked",   "presentParticiple": "asking",   "thirdPerson": "asks",    "type": "regular",   "meaning": "To request information or action" },
-  { "base": "call",    "past": "called",  "pastParticiple": "called",  "presentParticiple": "calling",  "thirdPerson": "calls",   "type": "regular",   "meaning": "To phone someone or address them by name" },
-  { "base": "open",    "past": "opened",  "pastParticiple": "opened",  "presentParticiple": "opening",  "thirdPerson": "opens",   "type": "regular",   "meaning": "To move something so it is no longer closed" },
-  { "base": "close",   "past": "closed",  "pastParticiple": "closed",  "presentParticiple": "closing",  "thirdPerson": "closes",  "type": "regular",   "meaning": "To move something so it covers an opening" },
-  { "base": "start",   "past": "started", "pastParticiple": "started", "presentParticiple": "starting", "thirdPerson": "starts",  "type": "regular",   "meaning": "To begin doing something" },
-  { "base": "finish",  "past": "finished","pastParticiple": "finished","presentParticiple": "finishing","thirdPerson": "finishes","type": "regular",   "meaning": "To complete something" },
-  { "base": "learn",   "past": "learned", "pastParticiple": "learned", "presentParticiple": "learning", "thirdPerson": "learns",  "type": "regular",   "meaning": "To gain knowledge or a skill" }
+  {
+    "base": "go",
+    "past": "went",
+    "pastParticiple": "gone",
+    "presentParticiple": "going",
+    "thirdPerson": "goes",
+    "type": "irregular",
+    "meaning": "To move from one place to another"
+  },
+  {
+    "base": "come",
+    "past": "came",
+    "pastParticiple": "come",
+    "presentParticiple": "coming",
+    "thirdPerson": "comes",
+    "type": "irregular",
+    "meaning": "To move toward the speaker or a place"
+  },
+  {
+    "base": "eat",
+    "past": "ate",
+    "pastParticiple": "eaten",
+    "presentParticiple": "eating",
+    "thirdPerson": "eats",
+    "type": "irregular",
+    "meaning": "To put food in the mouth and swallow it"
+  },
+  {
+    "base": "write",
+    "past": "wrote",
+    "pastParticiple": "written",
+    "presentParticiple": "writing",
+    "thirdPerson": "writes",
+    "type": "irregular",
+    "meaning": "To produce text on a surface"
+  },
+  {
+    "base": "read",
+    "past": "read",
+    "pastParticiple": "read",
+    "presentParticiple": "reading",
+    "thirdPerson": "reads",
+    "type": "irregular",
+    "meaning": "To look at and understand written words"
+  },
+  {
+    "base": "run",
+    "past": "ran",
+    "pastParticiple": "run",
+    "presentParticiple": "running",
+    "thirdPerson": "runs",
+    "type": "irregular",
+    "meaning": "To move fast using your legs"
+  },
+  {
+    "base": "see",
+    "past": "saw",
+    "pastParticiple": "seen",
+    "presentParticiple": "seeing",
+    "thirdPerson": "sees",
+    "type": "irregular",
+    "meaning": "To perceive with the eyes"
+  },
+  {
+    "base": "take",
+    "past": "took",
+    "pastParticiple": "taken",
+    "presentParticiple": "taking",
+    "thirdPerson": "takes",
+    "type": "irregular",
+    "meaning": "To pick up or carry something"
+  },
+  {
+    "base": "give",
+    "past": "gave",
+    "pastParticiple": "given",
+    "presentParticiple": "giving",
+    "thirdPerson": "gives",
+    "type": "irregular",
+    "meaning": "To hand something to someone"
+  },
+  {
+    "base": "make",
+    "past": "made",
+    "pastParticiple": "made",
+    "presentParticiple": "making",
+    "thirdPerson": "makes",
+    "type": "irregular",
+    "meaning": "To create or produce something"
+  },
+  {
+    "base": "know",
+    "past": "knew",
+    "pastParticiple": "known",
+    "presentParticiple": "knowing",
+    "thirdPerson": "knows",
+    "type": "irregular",
+    "meaning": "To have information in your mind"
+  },
+  {
+    "base": "think",
+    "past": "thought",
+    "pastParticiple": "thought",
+    "presentParticiple": "thinking",
+    "thirdPerson": "thinks",
+    "type": "irregular",
+    "meaning": "To use your mind to consider something"
+  },
+  {
+    "base": "speak",
+    "past": "spoke",
+    "pastParticiple": "spoken",
+    "presentParticiple": "speaking",
+    "thirdPerson": "speaks",
+    "type": "irregular",
+    "meaning": "To say words aloud"
+  },
+  {
+    "base": "find",
+    "past": "found",
+    "pastParticiple": "found",
+    "presentParticiple": "finding",
+    "thirdPerson": "finds",
+    "type": "irregular",
+    "meaning": "To discover or locate something"
+  },
+  {
+    "base": "buy",
+    "past": "bought",
+    "pastParticiple": "bought",
+    "presentParticiple": "buying",
+    "thirdPerson": "buys",
+    "type": "irregular",
+    "meaning": "To pay money to get something"
+  },
+  {
+    "base": "sit",
+    "past": "sat",
+    "pastParticiple": "sat",
+    "presentParticiple": "sitting",
+    "thirdPerson": "sits",
+    "type": "irregular",
+    "meaning": "To rest on a seat"
+  },
+  {
+    "base": "stand",
+    "past": "stood",
+    "pastParticiple": "stood",
+    "presentParticiple": "standing",
+    "thirdPerson": "stands",
+    "type": "irregular",
+    "meaning": "To be upright on your feet"
+  },
+  {
+    "base": "break",
+    "past": "broke",
+    "pastParticiple": "broken",
+    "presentParticiple": "breaking",
+    "thirdPerson": "breaks",
+    "type": "irregular",
+    "meaning": "To separate into pieces"
+  },
+  {
+    "base": "bring",
+    "past": "brought",
+    "pastParticiple": "brought",
+    "presentParticiple": "bringing",
+    "thirdPerson": "brings",
+    "type": "irregular",
+    "meaning": "To carry something to this place"
+  },
+  {
+    "base": "put",
+    "past": "put",
+    "pastParticiple": "put",
+    "presentParticiple": "putting",
+    "thirdPerson": "puts",
+    "type": "irregular",
+    "meaning": "To place something in a position"
+  },
+  {
+    "base": "play",
+    "past": "played",
+    "pastParticiple": "played",
+    "presentParticiple": "playing",
+    "thirdPerson": "plays",
+    "type": "regular",
+    "meaning": "To engage in a game or sport"
+  },
+  {
+    "base": "walk",
+    "past": "walked",
+    "pastParticiple": "walked",
+    "presentParticiple": "walking",
+    "thirdPerson": "walks",
+    "type": "regular",
+    "meaning": "To move on foot at a normal speed"
+  },
+  {
+    "base": "talk",
+    "past": "talked",
+    "pastParticiple": "talked",
+    "presentParticiple": "talking",
+    "thirdPerson": "talks",
+    "type": "regular",
+    "meaning": "To speak to someone"
+  },
+  {
+    "base": "work",
+    "past": "worked",
+    "pastParticiple": "worked",
+    "presentParticiple": "working",
+    "thirdPerson": "works",
+    "type": "regular",
+    "meaning": "To do a job or task"
+  },
+  {
+    "base": "look",
+    "past": "looked",
+    "pastParticiple": "looked",
+    "presentParticiple": "looking",
+    "thirdPerson": "looks",
+    "type": "regular",
+    "meaning": "To direct your eyes at something"
+  },
+  {
+    "base": "watch",
+    "past": "watched",
+    "pastParticiple": "watched",
+    "presentParticiple": "watching",
+    "thirdPerson": "watches",
+    "type": "regular",
+    "meaning": "To look at something for a period of time"
+  },
+  {
+    "base": "listen",
+    "past": "listened",
+    "pastParticiple": "listened",
+    "presentParticiple": "listening",
+    "thirdPerson": "listens",
+    "type": "regular",
+    "meaning": "To pay attention to sounds"
+  },
+  {
+    "base": "help",
+    "past": "helped",
+    "pastParticiple": "helped",
+    "presentParticiple": "helping",
+    "thirdPerson": "helps",
+    "type": "regular",
+    "meaning": "To make it easier for someone to do something"
+  },
+  {
+    "base": "ask",
+    "past": "asked",
+    "pastParticiple": "asked",
+    "presentParticiple": "asking",
+    "thirdPerson": "asks",
+    "type": "regular",
+    "meaning": "To request information or action"
+  },
+  {
+    "base": "call",
+    "past": "called",
+    "pastParticiple": "called",
+    "presentParticiple": "calling",
+    "thirdPerson": "calls",
+    "type": "regular",
+    "meaning": "To phone someone or address them by name"
+  },
+  {
+    "base": "open",
+    "past": "opened",
+    "pastParticiple": "opened",
+    "presentParticiple": "opening",
+    "thirdPerson": "opens",
+    "type": "regular",
+    "meaning": "To move something so it is no longer closed"
+  },
+  {
+    "base": "close",
+    "past": "closed",
+    "pastParticiple": "closed",
+    "presentParticiple": "closing",
+    "thirdPerson": "closes",
+    "type": "regular",
+    "meaning": "To move something so it covers an opening"
+  },
+  {
+    "base": "start",
+    "past": "started",
+    "pastParticiple": "started",
+    "presentParticiple": "starting",
+    "thirdPerson": "starts",
+    "type": "regular",
+    "meaning": "To begin doing something"
+  },
+  {
+    "base": "finish",
+    "past": "finished",
+    "pastParticiple": "finished",
+    "presentParticiple": "finishing",
+    "thirdPerson": "finishes",
+    "type": "regular",
+    "meaning": "To complete something"
+  },
+  {
+    "base": "learn",
+    "past": "learned",
+    "pastParticiple": "learned",
+    "presentParticiple": "learning",
+    "thirdPerson": "learns",
+    "type": "regular",
+    "meaning": "To gain knowledge or a skill"
+  },
+  {
+    "base": "be",
+    "past": "was/were",
+    "pastParticiple": "been",
+    "presentParticiple": "being",
+    "thirdPerson": "is",
+    "type": "irregular",
+    "meaning": "To exist or occur"
+  },
+  {
+    "base": "have",
+    "past": "had",
+    "pastParticiple": "had",
+    "presentParticiple": "having",
+    "thirdPerson": "has",
+    "type": "irregular",
+    "meaning": "To possess or own"
+  },
+  {
+    "base": "do",
+    "past": "did",
+    "pastParticiple": "done",
+    "presentParticiple": "doing",
+    "thirdPerson": "does",
+    "type": "irregular",
+    "meaning": "To perform or execute"
+  },
+  {
+    "base": "get",
+    "past": "got",
+    "pastParticiple": "got/gotten",
+    "presentParticiple": "getting",
+    "thirdPerson": "gets",
+    "type": "irregular",
+    "meaning": "To obtain or receive"
+  },
+  {
+    "base": "keep",
+    "past": "kept",
+    "pastParticiple": "kept",
+    "presentParticiple": "keeping",
+    "thirdPerson": "keeps",
+    "type": "irregular",
+    "meaning": "To retain possession of"
+  },
+  {
+    "base": "leave",
+    "past": "left",
+    "pastParticiple": "left",
+    "presentParticiple": "leaving",
+    "thirdPerson": "leaves",
+    "type": "irregular",
+    "meaning": "To depart or go away from"
+  },
+  {
+    "base": "meet",
+    "past": "met",
+    "pastParticiple": "met",
+    "presentParticiple": "meeting",
+    "thirdPerson": "meets",
+    "type": "irregular",
+    "meaning": "To come into the presence of"
+  },
+  {
+    "base": "lose",
+    "past": "lost",
+    "pastParticiple": "lost",
+    "presentParticiple": "losing",
+    "thirdPerson": "loses",
+    "type": "irregular",
+    "meaning": "To be unable to find or keep"
+  },
+  {
+    "base": "win",
+    "past": "won",
+    "pastParticiple": "won",
+    "presentParticiple": "winning",
+    "thirdPerson": "wins",
+    "type": "irregular",
+    "meaning": "To achieve victory or success"
+  },
+  {
+    "base": "send",
+    "past": "sent",
+    "pastParticiple": "sent",
+    "presentParticiple": "sending",
+    "thirdPerson": "sends",
+    "type": "irregular",
+    "meaning": "To cause to go or be taken"
+  },
+  {
+    "base": "sell",
+    "past": "sold",
+    "pastParticiple": "sold",
+    "presentParticiple": "selling",
+    "thirdPerson": "sells",
+    "type": "irregular",
+    "meaning": "To exchange for money"
+  },
+  {
+    "base": "pay",
+    "past": "paid",
+    "pastParticiple": "paid",
+    "presentParticiple": "paying",
+    "thirdPerson": "pays",
+    "type": "irregular",
+    "meaning": "To give money for goods or services"
+  },
+  {
+    "base": "feel",
+    "past": "felt",
+    "pastParticiple": "felt",
+    "presentParticiple": "feeling",
+    "thirdPerson": "feels",
+    "type": "irregular",
+    "meaning": "To experience a sensation or emotion"
+  },
+  {
+    "base": "hear",
+    "past": "heard",
+    "pastParticiple": "heard",
+    "presentParticiple": "hearing",
+    "thirdPerson": "hears",
+    "type": "irregular",
+    "meaning": "To perceive with the ear"
+  },
+  {
+    "base": "hold",
+    "past": "held",
+    "pastParticiple": "held",
+    "presentParticiple": "holding",
+    "thirdPerson": "holds",
+    "type": "irregular",
+    "meaning": "To grasp or carry"
+  },
+  {
+    "base": "wear",
+    "past": "wore",
+    "pastParticiple": "worn",
+    "presentParticiple": "wearing",
+    "thirdPerson": "wears",
+    "type": "irregular",
+    "meaning": "To have clothing or accessories on the body"
+  },
+  {
+    "base": "drive",
+    "past": "drove",
+    "pastParticiple": "driven",
+    "presentParticiple": "driving",
+    "thirdPerson": "drives",
+    "type": "irregular",
+    "meaning": "To operate a vehicle"
+  },
+  {
+    "base": "ride",
+    "past": "rode",
+    "pastParticiple": "ridden",
+    "presentParticiple": "riding",
+    "thirdPerson": "rides",
+    "type": "irregular",
+    "meaning": "To sit on and control a vehicle or animal"
+  },
+  {
+    "base": "fall",
+    "past": "fell",
+    "pastParticiple": "fallen",
+    "presentParticiple": "falling",
+    "thirdPerson": "falls",
+    "type": "irregular",
+    "meaning": "To move downward freely"
+  },
+  {
+    "base": "grow",
+    "past": "grew",
+    "pastParticiple": "grown",
+    "presentParticiple": "growing",
+    "thirdPerson": "grows",
+    "type": "irregular",
+    "meaning": "To increase in size or develop"
+  },
+  {
+    "base": "choose",
+    "past": "chose",
+    "pastParticiple": "chosen",
+    "presentParticiple": "choosing",
+    "thirdPerson": "chooses",
+    "type": "irregular",
+    "meaning": "To select from a number of alternatives"
+  },
+  {
+    "base": "drink",
+    "past": "drank",
+    "pastParticiple": "drunk",
+    "presentParticiple": "drinking",
+    "thirdPerson": "drinks",
+    "type": "irregular",
+    "meaning": "To consume a liquid"
+  },
+  {
+    "base": "draw",
+    "past": "drew",
+    "pastParticiple": "drawn",
+    "presentParticiple": "drawing",
+    "thirdPerson": "draws",
+    "type": "irregular",
+    "meaning": "To create a picture or pull"
+  },
+  {
+    "base": "forget",
+    "past": "forgot",
+    "pastParticiple": "forgotten",
+    "presentParticiple": "forgetting",
+    "thirdPerson": "forgets",
+    "type": "irregular",
+    "meaning": "To fail to remember"
+  },
+  {
+    "base": "forgive",
+    "past": "forgave",
+    "pastParticiple": "forgiven",
+    "presentParticiple": "forgiving",
+    "thirdPerson": "forgives",
+    "type": "irregular",
+    "meaning": "To stop feeling anger towards someone"
+  },
+  {
+    "base": "hide",
+    "past": "hid",
+    "pastParticiple": "hidden",
+    "presentParticiple": "hiding",
+    "thirdPerson": "hides",
+    "type": "irregular",
+    "meaning": "To put or keep out of sight"
+  },
+  {
+    "base": "lead",
+    "past": "led",
+    "pastParticiple": "led",
+    "presentParticiple": "leading",
+    "thirdPerson": "leads",
+    "type": "irregular",
+    "meaning": "To guide or direct"
+  },
+  {
+    "base": "lend",
+    "past": "lent",
+    "pastParticiple": "lent",
+    "presentParticiple": "lending",
+    "thirdPerson": "lends",
+    "type": "irregular",
+    "meaning": "To give temporarily"
+  },
+  {
+    "base": "rise",
+    "past": "rose",
+    "pastParticiple": "risen",
+    "presentParticiple": "rising",
+    "thirdPerson": "rises",
+    "type": "irregular",
+    "meaning": "To move upward"
+  },
+  {
+    "base": "shake",
+    "past": "shook",
+    "pastParticiple": "shaken",
+    "presentParticiple": "shaking",
+    "thirdPerson": "shakes",
+    "type": "irregular",
+    "meaning": "To move back and forth rapidly"
+  },
+  {
+    "base": "shoot",
+    "past": "shot",
+    "pastParticiple": "shot",
+    "presentParticiple": "shooting",
+    "thirdPerson": "shoots",
+    "type": "irregular",
+    "meaning": "To fire a gun or take a photograph"
+  },
+  {
+    "base": "sing",
+    "past": "sang",
+    "pastParticiple": "sung",
+    "presentParticiple": "singing",
+    "thirdPerson": "sings",
+    "type": "irregular",
+    "meaning": "To produce musical sounds with the voice"
+  },
+  {
+    "base": "swim",
+    "past": "swam",
+    "pastParticiple": "swum",
+    "presentParticiple": "swimming",
+    "thirdPerson": "swims",
+    "type": "irregular",
+    "meaning": "To move through water"
+  },
+  {
+    "base": "teach",
+    "past": "taught",
+    "pastParticiple": "taught",
+    "presentParticiple": "teaching",
+    "thirdPerson": "teaches",
+    "type": "irregular",
+    "meaning": "To impart knowledge or skills"
+  },
+  {
+    "base": "tell",
+    "past": "told",
+    "pastParticiple": "told",
+    "presentParticiple": "telling",
+    "thirdPerson": "tells",
+    "type": "irregular",
+    "meaning": "To communicate information"
+  },
+  {
+    "base": "throw",
+    "past": "threw",
+    "pastParticiple": "thrown",
+    "presentParticiple": "throwing",
+    "thirdPerson": "throws",
+    "type": "irregular",
+    "meaning": "To propel through the air"
+  },
+  {
+    "base": "understand",
+    "past": "understood",
+    "pastParticiple": "understood",
+    "presentParticiple": "understanding",
+    "thirdPerson": "understands",
+    "type": "irregular",
+    "meaning": "To perceive the meaning of"
+  },
+  {
+    "base": "wake",
+    "past": "woke",
+    "pastParticiple": "woken",
+    "presentParticiple": "waking",
+    "thirdPerson": "wakes",
+    "type": "irregular",
+    "meaning": "To stop sleeping"
+  },
+  {
+    "base": "become",
+    "past": "became",
+    "pastParticiple": "become",
+    "presentParticiple": "becoming",
+    "thirdPerson": "becomes",
+    "type": "irregular",
+    "meaning": "To begin to be or come into existence"
+  },
+  {
+    "base": "begin",
+    "past": "began",
+    "pastParticiple": "begun",
+    "presentParticiple": "beginning",
+    "thirdPerson": "begins",
+    "type": "irregular",
+    "meaning": "To start"
+  },
+  {
+    "base": "build",
+    "past": "built",
+    "pastParticiple": "built",
+    "presentParticiple": "building",
+    "thirdPerson": "builds",
+    "type": "irregular",
+    "meaning": "To construct or create"
+  },
+  {
+    "base": "catch",
+    "past": "caught",
+    "pastParticiple": "caught",
+    "presentParticiple": "catching",
+    "thirdPerson": "catches",
+    "type": "irregular",
+    "meaning": "To capture or seize"
+  },
+  {
+    "base": "cost",
+    "past": "cost",
+    "pastParticiple": "cost",
+    "presentParticiple": "costing",
+    "thirdPerson": "costs",
+    "type": "irregular",
+    "meaning": "To require payment of"
+  },
+  {
+    "base": "cut",
+    "past": "cut",
+    "pastParticiple": "cut",
+    "presentParticiple": "cutting",
+    "thirdPerson": "cuts",
+    "type": "irregular",
+    "meaning": "To divide or make an opening with a sharp tool"
+  },
+  {
+    "base": "deal",
+    "past": "dealt",
+    "pastParticiple": "dealt",
+    "presentParticiple": "dealing",
+    "thirdPerson": "deals",
+    "type": "irregular",
+    "meaning": "To distribute or handle"
+  },
+  {
+    "base": "dream",
+    "past": "dreamed/dreamt",
+    "pastParticiple": "dreamed/dreamt",
+    "presentParticiple": "dreaming",
+    "thirdPerson": "dreams",
+    "type": "irregular",
+    "meaning": "To experience thoughts during sleep"
+  },
+  {
+    "base": "feed",
+    "past": "fed",
+    "pastParticiple": "fed",
+    "presentParticiple": "feeding",
+    "thirdPerson": "feeds",
+    "type": "irregular",
+    "meaning": "To give food to"
+  },
+  {
+    "base": "fight",
+    "past": "fought",
+    "pastParticiple": "fought",
+    "presentParticiple": "fighting",
+    "thirdPerson": "fights",
+    "type": "irregular",
+    "meaning": "To engage in combat or conflict"
+  },
+  {
+    "base": "fly",
+    "past": "flew",
+    "pastParticiple": "flown",
+    "presentParticiple": "flying",
+    "thirdPerson": "flies",
+    "type": "irregular",
+    "meaning": "To move through the air"
+  },
+  {
+    "base": "hang",
+    "past": "hung",
+    "pastParticiple": "hung",
+    "presentParticiple": "hanging",
+    "thirdPerson": "hangs",
+    "type": "irregular",
+    "meaning": "To suspend or attach from above"
+  },
+  {
+    "base": "hit",
+    "past": "hit",
+    "pastParticiple": "hit",
+    "presentParticiple": "hitting",
+    "thirdPerson": "hits",
+    "type": "irregular",
+    "meaning": "To strike forcefully"
+  },
+  {
+    "base": "hurt",
+    "past": "hurt",
+    "pastParticiple": "hurt",
+    "presentParticiple": "hurting",
+    "thirdPerson": "hurts",
+    "type": "irregular",
+    "meaning": "To cause pain or injury"
+  },
+  {
+    "base": "lay",
+    "past": "laid",
+    "pastParticiple": "laid",
+    "presentParticiple": "laying",
+    "thirdPerson": "lays",
+    "type": "irregular",
+    "meaning": "To place down gently"
+  },
+  {
+    "base": "light",
+    "past": "lit/lighted",
+    "pastParticiple": "lit/lighted",
+    "presentParticiple": "lighting",
+    "thirdPerson": "lights",
+    "type": "irregular",
+    "meaning": "To ignite or illuminate"
+  },
+  {
+    "base": "mean",
+    "past": "meant",
+    "pastParticiple": "meant",
+    "presentParticiple": "meaning",
+    "thirdPerson": "means",
+    "type": "irregular",
+    "meaning": "To signify or intend"
+  },
+  {
+    "base": "ring",
+    "past": "rang",
+    "pastParticiple": "rung",
+    "presentParticiple": "ringing",
+    "thirdPerson": "rings",
+    "type": "irregular",
+    "meaning": "To make a sound like a bell"
+  },
+  {
+    "base": "shine",
+    "past": "shone",
+    "pastParticiple": "shone",
+    "presentParticiple": "shining",
+    "thirdPerson": "shines",
+    "type": "irregular",
+    "meaning": "To emit or reflect light"
+  },
+  {
+    "base": "show",
+    "past": "showed",
+    "pastParticiple": "shown",
+    "presentParticiple": "showing",
+    "thirdPerson": "shows",
+    "type": "irregular",
+    "meaning": "To display or demonstrate"
+  },
+  {
+    "base": "shut",
+    "past": "shut",
+    "pastParticiple": "shut",
+    "presentParticiple": "shutting",
+    "thirdPerson": "shuts",
+    "type": "irregular",
+    "meaning": "To close"
+  },
+  {
+    "base": "sleep",
+    "past": "slept",
+    "pastParticiple": "slept",
+    "presentParticiple": "sleeping",
+    "thirdPerson": "sleeps",
+    "type": "irregular",
+    "meaning": "To rest in a state of unconsciousness"
+  },
+  {
+    "base": "smell",
+    "past": "smelled/smelt",
+    "pastParticiple": "smelled/smelt",
+    "presentParticiple": "smelling",
+    "thirdPerson": "smells",
+    "type": "irregular",
+    "meaning": "To perceive or emit an odor"
+  },
+  {
+    "base": "spell",
+    "past": "spelled/spelt",
+    "pastParticiple": "spelled/spelt",
+    "presentParticiple": "spelling",
+    "thirdPerson": "spells",
+    "type": "irregular",
+    "meaning": "To write or name letters of a word"
+  },
+  {
+    "base": "spend",
+    "past": "spent",
+    "pastParticiple": "spent",
+    "presentParticiple": "spending",
+    "thirdPerson": "spends",
+    "type": "irregular",
+    "meaning": "To use up or pay out"
+  },
+  {
+    "base": "steal",
+    "past": "stole",
+    "pastParticiple": "stolen",
+    "presentParticiple": "stealing",
+    "thirdPerson": "steals",
+    "type": "irregular",
+    "meaning": "To take without permission"
+  },
+  {
+    "base": "stick",
+    "past": "stuck",
+    "pastParticiple": "stuck",
+    "presentParticiple": "sticking",
+    "thirdPerson": "sticks",
+    "type": "irregular",
+    "meaning": "To attach or pierce"
+  },
+  {
+    "base": "strike",
+    "past": "struck",
+    "pastParticiple": "struck/stricken",
+    "presentParticiple": "striking",
+    "thirdPerson": "strikes",
+    "type": "irregular",
+    "meaning": "To hit or attack"
+  },
+  {
+    "base": "swear",
+    "past": "swore",
+    "pastParticiple": "sworn",
+    "presentParticiple": "swearing",
+    "thirdPerson": "swears",
+    "type": "irregular",
+    "meaning": "To make a solemn promise or use profanity"
+  },
+  {
+    "base": "sweep",
+    "past": "swept",
+    "pastParticiple": "swept",
+    "presentParticiple": "sweeping",
+    "thirdPerson": "sweeps",
+    "type": "irregular",
+    "meaning": "To clean with a broom"
+  },
+  {
+    "base": "tear",
+    "past": "tore",
+    "pastParticiple": "torn",
+    "presentParticiple": "tearing",
+    "thirdPerson": "tears",
+    "type": "irregular",
+    "meaning": "To rip or pull apart"
+  },
+  {
+    "base": "win",
+    "past": "won",
+    "pastParticiple": "won",
+    "presentParticiple": "winning",
+    "thirdPerson": "wins",
+    "type": "irregular",
+    "meaning": "To achieve victory or success"
+  },
+  {
+    "base": "accept",
+    "past": "accepted",
+    "pastParticiple": "accepted",
+    "presentParticiple": "accepting",
+    "thirdPerson": "accepts",
+    "type": "regular",
+    "meaning": "To receive or agree to"
+  },
+  {
+    "base": "agree",
+    "past": "agreed",
+    "pastParticiple": "agreed",
+    "presentParticiple": "agreeing",
+    "thirdPerson": "agrees",
+    "type": "regular",
+    "meaning": "To have the same opinion"
+  },
+  {
+    "base": "answer",
+    "past": "answered",
+    "pastParticiple": "answered",
+    "presentParticiple": "answering",
+    "thirdPerson": "answers",
+    "type": "regular",
+    "meaning": "To respond"
+  },
+  {
+    "base": "arrive",
+    "past": "arrived",
+    "pastParticiple": "arrived",
+    "presentParticiple": "arriving",
+    "thirdPerson": "arrives",
+    "type": "regular",
+    "meaning": "To reach a destination"
+  },
+  {
+    "base": "believe",
+    "past": "believed",
+    "pastParticiple": "believed",
+    "presentParticiple": "believing",
+    "thirdPerson": "believes",
+    "type": "regular",
+    "meaning": "To accept as true"
+  },
+  {
+    "base": "change",
+    "past": "changed",
+    "pastParticiple": "changed",
+    "presentParticiple": "changing",
+    "thirdPerson": "changes",
+    "type": "regular",
+    "meaning": "To make or become different"
+  },
+  {
+    "base": "clean",
+    "past": "cleaned",
+    "pastParticiple": "cleaned",
+    "presentParticiple": "cleaning",
+    "thirdPerson": "cleans",
+    "type": "regular",
+    "meaning": "To remove dirt"
+  },
+  {
+    "base": "climb",
+    "past": "climbed",
+    "pastParticiple": "climbed",
+    "presentParticiple": "climbing",
+    "thirdPerson": "climbs",
+    "type": "regular",
+    "meaning": "To go upward"
+  },
+  {
+    "base": "cook",
+    "past": "cooked",
+    "pastParticiple": "cooked",
+    "presentParticiple": "cooking",
+    "thirdPerson": "cooks",
+    "type": "regular",
+    "meaning": "To prepare food using heat"
+  },
+  {
+    "base": "dance",
+    "past": "danced",
+    "pastParticiple": "danced",
+    "presentParticiple": "dancing",
+    "thirdPerson": "dances",
+    "type": "regular",
+    "meaning": "To move rhythmically to music"
+  },
+  {
+    "base": "decide",
+    "past": "decided",
+    "pastParticiple": "decided",
+    "presentParticiple": "deciding",
+    "thirdPerson": "decides",
+    "type": "regular",
+    "meaning": "To make a choice"
+  },
+  {
+    "base": "enjoy",
+    "past": "enjoyed",
+    "pastParticiple": "enjoyed",
+    "presentParticiple": "enjoying",
+    "thirdPerson": "enjoys",
+    "type": "regular",
+    "meaning": "To take pleasure in"
+  },
+  {
+    "base": "explain",
+    "past": "explained",
+    "pastParticiple": "explained",
+    "presentParticiple": "explaining",
+    "thirdPerson": "explains",
+    "type": "regular",
+    "meaning": "To make something clear"
+  },
+  {
+    "base": "follow",
+    "past": "followed",
+    "pastParticiple": "followed",
+    "presentParticiple": "following",
+    "thirdPerson": "follows",
+    "type": "regular",
+    "meaning": "To come after or obey"
+  },
+  {
+    "base": "happen",
+    "past": "happened",
+    "pastParticiple": "happened",
+    "presentParticiple": "happening",
+    "thirdPerson": "happens",
+    "type": "regular",
+    "meaning": "To take place or occur"
+  },
+  {
+    "base": "invite",
+    "past": "invited",
+    "pastParticiple": "invited",
+    "presentParticiple": "inviting",
+    "thirdPerson": "invites",
+    "type": "regular",
+    "meaning": "To request someone's presence"
+  },
+  {
+    "base": "join",
+    "past": "joined",
+    "pastParticiple": "joined",
+    "presentParticiple": "joining",
+    "thirdPerson": "joins",
+    "type": "regular",
+    "meaning": "To connect or become a member"
+  },
+  {
+    "base": "laugh",
+    "past": "laughed",
+    "pastParticiple": "laughed",
+    "presentParticiple": "laughing",
+    "thirdPerson": "laughs",
+    "type": "regular",
+    "meaning": "To make sounds showing amusement"
+  },
+  {
+    "base": "live",
+    "past": "lived",
+    "pastParticiple": "lived",
+    "presentParticiple": "living",
+    "thirdPerson": "lives",
+    "type": "regular",
+    "meaning": "To have life or reside"
+  },
+  {
+    "base": "love",
+    "past": "loved",
+    "pastParticiple": "loved",
+    "presentParticiple": "loving",
+    "thirdPerson": "loves",
+    "type": "regular",
+    "meaning": "To have strong affection for"
+  },
+  {
+    "base": "move",
+    "past": "moved",
+    "pastParticiple": "moved",
+    "presentParticiple": "moving",
+    "thirdPerson": "moves",
+    "type": "regular",
+    "meaning": "To change position"
+  },
+  {
+    "base": "need",
+    "past": "needed",
+    "pastParticiple": "needed",
+    "presentParticiple": "needing",
+    "thirdPerson": "needs",
+    "type": "regular",
+    "meaning": "To require"
+  },
+  {
+    "base": "pass",
+    "past": "passed",
+    "pastParticiple": "passed",
+    "presentParticiple": "passing",
+    "thirdPerson": "passes",
+    "type": "regular",
+    "meaning": "To go past or succeed"
+  },
+  {
+    "base": "plan",
+    "past": "planned",
+    "pastParticiple": "planned",
+    "presentParticiple": "planning",
+    "thirdPerson": "plans",
+    "type": "regular",
+    "meaning": "To arrange in advance"
+  },
+  {
+    "base": "remember",
+    "past": "remembered",
+    "pastParticiple": "remembered",
+    "presentParticiple": "remembering",
+    "thirdPerson": "remembers",
+    "type": "regular",
+    "meaning": "To recall to mind"
+  },
+  {
+    "base": "return",
+    "past": "returned",
+    "pastParticiple": "returned",
+    "presentParticiple": "returning",
+    "thirdPerson": "returns",
+    "type": "regular",
+    "meaning": "To go back or give back"
+  },
+  {
+    "base": "smile",
+    "past": "smiled",
+    "pastParticiple": "smiled",
+    "presentParticiple": "smiling",
+    "thirdPerson": "smiles",
+    "type": "regular",
+    "meaning": "To show happiness by facial expression"
+  },
+  {
+    "base": "study",
+    "past": "studied",
+    "pastParticiple": "studied",
+    "presentParticiple": "studying",
+    "thirdPerson": "studies",
+    "type": "regular",
+    "meaning": "To learn or examine"
+  },
+  {
+    "base": "travel",
+    "past": "traveled",
+    "pastParticiple": "traveled",
+    "presentParticiple": "traveling",
+    "thirdPerson": "travels",
+    "type": "regular",
+    "meaning": "To make a journey"
+  },
+  {
+    "base": "visit",
+    "past": "visited",
+    "pastParticiple": "visited",
+    "presentParticiple": "visiting",
+    "thirdPerson": "visits",
+    "type": "regular",
+    "meaning": "To go to see and spend time with"
+  },
+  {
+    "base": "wait",
+    "past": "waited",
+    "pastParticiple": "waited",
+    "presentParticiple": "waiting",
+    "thirdPerson": "waits",
+    "type": "regular",
+    "meaning": "To stay in place expecting"
+  },
+  {
+    "base": "wash",
+    "past": "washed",
+    "pastParticiple": "washed",
+    "presentParticiple": "washing",
+    "thirdPerson": "washes",
+    "type": "regular",
+    "meaning": "To clean with water"
+  },
+  {
+    "base": "wish",
+    "past": "wished",
+    "pastParticiple": "wished",
+    "presentParticiple": "wishing",
+    "thirdPerson": "wishes",
+    "type": "regular",
+    "meaning": "To desire or hope for"
+  },
+  {
+    "base": "worry",
+    "past": "worried",
+    "pastParticiple": "worried",
+    "presentParticiple": "worrying",
+    "thirdPerson": "worries",
+    "type": "regular",
+    "meaning": "To feel anxious or concerned"
+  },
+  {
+    "base": "carry",
+    "past": "carried",
+    "pastParticiple": "carried",
+    "presentParticiple": "carrying",
+    "thirdPerson": "carries",
+    "type": "regular",
+    "meaning": "To hold and move"
+  },
+  {
+    "base": "discover",
+    "past": "discovered",
+    "pastParticiple": "discovered",
+    "presentParticiple": "discovering",
+    "thirdPerson": "discovers",
+    "type": "regular",
+    "meaning": "To find or become aware of"
+  },
+  {
+    "base": "enter",
+    "past": "entered",
+    "pastParticiple": "entered",
+    "presentParticiple": "entering",
+    "thirdPerson": "enters",
+    "type": "regular",
+    "meaning": "To come or go into"
+  },
+  {
+    "base": "improve",
+    "past": "improved",
+    "pastParticiple": "improved",
+    "presentParticiple": "improving",
+    "thirdPerson": "improves",
+    "type": "regular",
+    "meaning": "To make better"
+  },
+  {
+    "base": "practice",
+    "past": "practiced",
+    "pastParticiple": "practiced",
+    "presentParticiple": "practicing",
+    "thirdPerson": "practices",
+    "type": "regular",
+    "meaning": "To perform repeatedly to improve"
+  },
+  {
+    "base": "receive",
+    "past": "received",
+    "pastParticiple": "received",
+    "presentParticiple": "receiving",
+    "thirdPerson": "receives",
+    "type": "regular",
+    "meaning": "To get or accept"
+  }
 ]

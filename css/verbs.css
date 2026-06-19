@@ -181,7 +181,7 @@
 .filter-btn.active, .filter-btn:hover {
   background: var(--c-700);
   border-color: var(--c-700);
-  color: var(--c-100);
+  color: var(--c-950);
 }
 .verb-grid {
   display: grid;
