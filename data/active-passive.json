@@ -1,0 +1,182 @@
+[
+    {
+        "id": "simple-present",
+        "tense": "Simple Present Tense",
+        "group": "present",
+        "rule": "is/am/are + V3 (Past Participle)",
+        "active": {
+            "structure": "Subject + V1/V1+s/es + Object",
+            "example": "She reads the book."
+        },
+        "passive": {
+            "structure": "Object + is/am/are + V3 + (by + Subject)",
+            "example": "The book is read by her."
+        },
+        "note": "Use 'is' for singular, 'are' for plural, 'am' for I."
+    },
+    {
+        "id": "present-continuous",
+        "tense": "Present Continuous Tense",
+        "group": "present",
+        "rule": "is/am/are + being + V3",
+        "active": {
+            "structure": "Subject + is/am/are + V1+ing + Object",
+            "example": "She is reading the book."
+        },
+        "passive": {
+            "structure": "Object + is/am/are + being + V3 + (by + Subject)",
+            "example": "The book is being read by her."
+        },
+        "note": null
+    },
+    {
+        "id": "present-perfect",
+        "tense": "Present Perfect Tense",
+        "group": "present",
+        "rule": "has/have + been + V3",
+        "active": {
+            "structure": "Subject + has/have + V3 + Object",
+            "example": "She has read the book."
+        },
+        "passive": {
+            "structure": "Object + has/have + been + V3 + (by + Subject)",
+            "example": "The book has been read by her."
+        },
+        "note": "Use 'has been' for singular, 'have been' for plural subjects."
+    },
+    {
+        "id": "present-perfect-continuous",
+        "tense": "Present Perfect Continuous Tense",
+        "group": "present",
+        "rule": "Not commonly used in passive voice.",
+        "active": {
+            "structure": "Subject + has/have + been + V1+ing + Object",
+            "example": "She has been reading the book for two hours."
+        },
+        "passive": {
+            "structure": "Rarely converted to passive.",
+            "example": "The book has been being read by her. (Avoid)"
+        },
+        "note": "Present Perfect Continuous is generally not converted to passive in standard usage."
+    },
+    {
+        "id": "simple-past",
+        "tense": "Simple Past Tense",
+        "group": "past",
+        "rule": "was/were + V3",
+        "active": {
+            "structure": "Subject + V2 + Object",
+            "example": "She read the book."
+        },
+        "passive": {
+            "structure": "Object + was/were + V3 + (by + Subject)",
+            "example": "The book was read by her."
+        },
+        "note": "Use 'was' for singular, 'were' for plural subjects."
+    },
+    {
+        "id": "past-continuous",
+        "tense": "Past Continuous Tense",
+        "group": "past",
+        "rule": "was/were + being + V3",
+        "active": {
+            "structure": "Subject + was/were + V1+ing + Object",
+            "example": "She was reading the book."
+        },
+        "passive": {
+            "structure": "Object + was/were + being + V3 + (by + Subject)",
+            "example": "The book was being read by her."
+        },
+        "note": null
+    },
+    {
+        "id": "past-perfect",
+        "tense": "Past Perfect Tense",
+        "group": "past",
+        "rule": "had + been + V3",
+        "active": {
+            "structure": "Subject + had + V3 + Object",
+            "example": "She had read the book."
+        },
+        "passive": {
+            "structure": "Object + had + been + V3 + (by + Subject)",
+            "example": "The book had been read by her."
+        },
+        "note": null
+    },
+    {
+        "id": "past-perfect-continuous",
+        "tense": "Past Perfect Continuous Tense",
+        "group": "past",
+        "rule": "Not commonly used in passive voice.",
+        "active": {
+            "structure": "Subject + had + been + V1+ing + Object",
+            "example": "She had been reading the book for two hours."
+        },
+        "passive": {
+            "structure": "Rarely converted to passive.",
+            "example": "The book had been being read by her. (Avoid)"
+        },
+        "note": "Past Perfect Continuous is generally not converted to passive in standard usage."
+    },
+    {
+        "id": "simple-future",
+        "tense": "Simple Future Tense",
+        "group": "future",
+        "rule": "will + be + V3",
+        "active": {
+            "structure": "Subject + will + V1 + Object",
+            "example": "She will read the book."
+        },
+        "passive": {
+            "structure": "Object + will + be + V3 + (by + Subject)",
+            "example": "The book will be read by her."
+        },
+        "note": null
+    },
+    {
+        "id": "future-continuous",
+        "tense": "Future Continuous Tense",
+        "group": "future",
+        "rule": "will + be + being + V3",
+        "active": {
+            "structure": "Subject + will + be + V1+ing + Object",
+            "example": "She will be reading the book."
+        },
+        "passive": {
+            "structure": "Object + will + be + being + V3 + (by + Subject)",
+            "example": "The book will be being read by her. (Rare)"
+        },
+        "note": "Future Continuous passive is grammatically possible but rarely used in practice."
+    },
+    {
+        "id": "future-perfect",
+        "tense": "Future Perfect Tense",
+        "group": "future",
+        "rule": "will + have + been + V3",
+        "active": {
+            "structure": "Subject + will + have + V3 + Object",
+            "example": "She will have read the book."
+        },
+        "passive": {
+            "structure": "Object + will + have + been + V3 + (by + Subject)",
+            "example": "The book will have been read by her."
+        },
+        "note": null
+    },
+    {
+        "id": "future-perfect-continuous",
+        "tense": "Future Perfect Continuous Tense",
+        "group": "future",
+        "rule": "Not commonly used in passive voice.",
+        "active": {
+            "structure": "Subject + will + have + been + V1+ing + Object",
+            "example": "She will have been reading the book for two hours."
+        },
+        "passive": {
+            "structure": "Rarely converted to passive.",
+            "example": "The book will have been being read by her. (Avoid)"
+        },
+        "note": "Future Perfect Continuous is generally not converted to passive in standard usage."
+    }
+]
